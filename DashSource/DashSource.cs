@@ -1,12 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace DashSource
 {
@@ -14,25 +6,33 @@ namespace DashSource
     {
         static void Main(string[] args)
         {
-            ////Downloader
-            //LogHelper.Log("Downloader START");
-            //Downloader downloader = new Downloader();
-            //downloader.downloadAttachments();
-            //LogHelper.Log("Downloader END");
+            string tableName = "";
+
+            //Downloader
+            LogHelper.Log("Downloader START");
+            Downloader downloader = new Downloader();
+            downloader.downloadAttachments();
+            LogHelper.Log("Downloader END");
 
             //Loader
             LogHelper.Log("Loader START");
-            string sourceFilePath = "TX3_TRACKING_13-Jun-2017.csv";
-            string tableName = "DR_TX3_TRACKING";
-
             Loader ldr = new Loader();
-            var columnNames = ldr.getTableColumns(tableName);
+            var files = ldr.getInputFiles();
 
-            var parsedFile = ldr.GetDataTabletFromCSVFile(sourceFilePath);
-            ldr.InsertDataIntoSQLServerUsingSQLBulkCopy(parsedFile, tableName, columnNames);
-            ldr.moveToArchive(sourceFilePath);
+            foreach (var file in files)
+            {
+                LogHelper.Log("Loading " + file);
+                tableName = ldr.getTableName(file);
+                var columnNames = ldr.getTableColumns(tableName);
+                var parsedFile = ldr.GetDataTabletFromCSVFile(file);
+                ldr.InsertDataIntoSQLServerUsingSQLBulkCopy(parsedFile, tableName, columnNames);
+                ldr.moveToArchive(file);
+            }
             LogHelper.Log("Loader END");
-            
-        } 
+
+            //TODO: Truncate tables before loading
+            //TODO: GUI
+            //TODO: Add comments in the classes
+        }
     }
 }

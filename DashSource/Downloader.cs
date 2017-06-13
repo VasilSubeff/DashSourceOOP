@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.Exchange.WebServices.Data;
-using Microsoft.VisualBasic.FileIO;
 
 namespace DashSource
 {
@@ -80,6 +79,8 @@ namespace DashSource
                         this.GetAttachmentsFromEmail(service, item.Id);
                     }
 
+                    this.MarkEmailAsRead(service, item.Id);
+                    LogHelper.Log("Email marked as Read");
                     item.Move(processedFolder.Id);
                     LogHelper.Log("Email moved to processed");
                 }
@@ -88,12 +89,10 @@ namespace DashSource
             {
                 if (e.Message.Contains("destinationFolderId"))
                 {
-                    Console.WriteLine("Email was not moved. Destination folder incorrect.");
                     LogHelper.Log("Email was not moved. Destination folder incorrect." + e);
                 }
                 else if (e.Message.Contains("items"))
                 {
-                    Console.WriteLine("No Emails");
                     LogHelper.Log("No emails found" +e);
                 }
             }
@@ -109,8 +108,6 @@ namespace DashSource
                     if (folder.DisplayName.Contains(folderName))
                     {
                         outputFolder = Folder.Bind(service, folder.Id);
-                        Console.WriteLine(outputFolder.DisplayName);
-
                     }
                 }
 
@@ -165,7 +162,6 @@ namespace DashSource
                         fileAttachment.Load(this.InputDirectory + fileAttachment.Name);
 
                         LogHelper.Log("File attachment name: " + fileAttachment.Name + " downloaded");
-                        Console.WriteLine("File attachment name: " + fileAttachment.Name);
                     }
                     else // Attachment is an item attachment.
                     {
@@ -175,8 +171,6 @@ namespace DashSource
                         // This does not save the file like it does with a file attachment.
                         // This call results in a GetAttachment call to EWS.
                         itemAttachment.Load();
-
-                        Console.WriteLine("Item attachment name: " + itemAttachment.Name);
                     }
                 }
             }
@@ -186,6 +180,13 @@ namespace DashSource
                 LogHelper.Log("Attachment cannot be downloader" + e);
                 throw;
             }
+        }
+
+        public void MarkEmailAsRead(ExchangeService service, ItemId itemId)
+        {
+            EmailMessage email = EmailMessage.Bind(service, itemId, new PropertySet(BasePropertySet.FirstClassProperties, EmailMessageSchema.IsRead));
+            email.IsRead = true;
+            email.Update(ConflictResolutionMode.AlwaysOverwrite);
         }
     }
 }

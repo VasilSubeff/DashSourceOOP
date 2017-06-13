@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.IO;
+using System.Linq;
 
 namespace DashSource
 {
@@ -41,6 +42,25 @@ namespace DashSource
             }
         }
 
+        public List<string> getInputFiles()
+        {
+            List<string> list = new List<string>();
+            var files = Directory.GetFiles(this.InputDirectory).Select(Path.GetFileName).ToArray();
+
+            foreach (var file in files)
+            {
+                list.Add(file);
+            }
+
+            return list;
+        }
+
+        public string getTableName(string fileName)
+        {
+            string tableName = fileName.Substring(0, fileName.LastIndexOf("_"));
+            return "DR_" + tableName;
+        }
+
         public void moveToArchive(string fileName)
         {
             
@@ -63,10 +83,9 @@ namespace DashSource
 
             try
             {
-                Console.WriteLine(fullFilePath);
-                Console.WriteLine(fullArchive);
-                File.Move(fullFilePath, fullArchive);
-                LogHelper.Log("File moved to ARCHIVE" + fullArchive);
+                File.Replace(fullFilePath, fullArchive, fullArchive + "_");
+                File.Delete(fullArchive + "_");
+                LogHelper.Log("File moved to ARCHIVE " + fullArchive);
             }
             catch (Exception e)
             {

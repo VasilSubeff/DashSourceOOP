@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DashSource
 {
@@ -15,8 +11,9 @@ namespace DashSource
         {
             using (StreamWriter sw = new StreamWriter(this.filePath, true))
             {
-                sw.WriteLine(DateTime.Now + ": " + message);
+                sw.WriteLine("[" +DateTime.Now + "]: " + message);
                 sw.Close();
+                Console.WriteLine(message); ;
             }
         }
     }

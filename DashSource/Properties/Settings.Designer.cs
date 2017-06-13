@@ -35,8 +35,8 @@ namespace DashSource.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=VASILS02\\POWERBI;Initial Catalog=dailyreport;Persist Security Info=Tr" +
-            "ue;User ID=admin;Password=admin")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=INFINITYCASTLE;Initial Catalog=test;Persist Security Info=True;User I" +
+            "D=backo;Password=letmein3")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
