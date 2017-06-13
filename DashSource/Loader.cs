@@ -3,14 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace DashSource
 {
     public class Loader
     {
-        private string connString;
-        private string delimiter;
-
         public string ConnectionString
         {
             get
@@ -27,34 +25,97 @@ namespace DashSource
             }
         }
 
+        public string ArchiveDirectory
+        {
+            get
+            {
+                return Properties.Settings.Default.archiveDirSetting;
+            }
+        }
+
+        public string InputDirectory
+        {
+            get
+            {
+                return Properties.Settings.Default.inputDirectorySetting;
+            }
+        }
+
+        public void moveToArchive(string fileName)
+        {
+            
+            string dirDate = DateTime.Now.ToString("yyyyMMdd");
+            string fullArchive = this.ArchiveDirectory + dirDate + "\\" + fileName;
+            string fullFilePath = this.InputDirectory + fileName;
+            if (!Directory.Exists(this.ArchiveDirectory + dirDate))
+            {
+                try
+                {
+                    Directory.CreateDirectory(this.ArchiveDirectory + dirDate);
+                    LogHelper.Log("Archive directory created " + this.ArchiveDirectory + dirDate);
+                }
+                catch (Exception e)
+                {
+                    LogHelper.Log("Archive directory could not be created " + e);
+                    throw;
+                }
+            }
+
+            try
+            {
+                Console.WriteLine(fullFilePath);
+                Console.WriteLine(fullArchive);
+                File.Move(fullFilePath, fullArchive);
+                LogHelper.Log("File moved to ARCHIVE" + fullArchive);
+            }
+            catch (Exception e)
+            {
+                LogHelper.Log("File could not be moved to ARCHIVE " + e);
+                throw;
+            }
+        }
+
         public List<string> getTableColumns(string tableName)
         {
             List<string> listOfColumns = new List<string>();
-            using (SqlConnection connection = new SqlConnection(this.ConnectionString))
+
+            try
             {
-                using (SqlCommand command = connection.CreateCommand())
+                using (SqlConnection connection = new SqlConnection(this.ConnectionString))
                 {
-                    command.CommandText = "select c.name from sys.columns c inner join sys.tables t on t.object_id = c.object_id and t.name = '" + tableName + "' and t.type = 'U'";
-                    connection.Open();
-                    using (var reader = command.ExecuteReader())
+                    using (SqlCommand command = connection.CreateCommand())
                     {
-                        while (reader.Read())
+                        command.CommandText = "select c.name from sys.columns c inner join sys.tables t on t.object_id = c.object_id and t.name = '" + tableName + "' and t.type = 'U'";
+                        connection.Open();
+                        using (var reader = command.ExecuteReader())
                         {
-                            listOfColumns.Add(reader.GetString(0));
+                            while (reader.Read())
+                            {
+                                listOfColumns.Add(reader.GetString(0));
+                            }
                         }
                     }
                 }
             }
+            catch (Exception e)
+            {
 
+                LogHelper.Log("Cannot retrieve table columns " + e);
+                throw;
+            }
+
+            LogHelper.Log("Table columns retrieved");
             return listOfColumns;
         }
 
         public DataTable GetDataTabletFromCSVFile(string sourceFilePath)
         {
             DataTable pipeData = new DataTable();
+            string fullPath = this.InputDirectory + sourceFilePath;
+
             try
             {
-                using (TextFieldParser pipeReader = new TextFieldParser(sourceFilePath))
+                using (TextFieldParser pipeReader = new TextFieldParser(fullPath))
                 {
                     pipeReader.SetDelimiters(new string[] { this.Delimiter });
                     pipeReader.HasFieldsEnclosedInQuotes = true;
@@ -81,30 +142,43 @@ namespace DashSource
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return null;
+                LogHelper.Log("Cannot convert file to DataTable " + e);
+                throw;
             }
+
+            LogHelper.Log("DataTable initialized");
             return pipeData;
         }
 
         public void InsertDataIntoSQLServerUsingSQLBulkCopy(DataTable fileData, string tableName, List<string> columnNames)
         {
-            using (SqlConnection dbConnection = new SqlConnection(this.ConnectionString))
+            try
             {
-                dbConnection.Open();
-                using (SqlBulkCopy s = new SqlBulkCopy(dbConnection))
+                using (SqlConnection dbConnection = new SqlConnection(this.ConnectionString))
                 {
-                    s.DestinationTableName = tableName;
-                    var columns = fileData.Columns;
-
-                    for (int i = 0; i < columns.Count; i++)
+                    dbConnection.Open();
+                    using (SqlBulkCopy s = new SqlBulkCopy(dbConnection))
                     {
-                        s.ColumnMappings.Add(columns[i].ToString(), columnNames[i].ToString());
+                        s.DestinationTableName = tableName;
+                        var columns = fileData.Columns;
+
+                        for (int i = 0; i < columns.Count; i++)
+                        {
+                            s.ColumnMappings.Add(columns[i].ToString(), columnNames[i].ToString());
+                        }
+                        s.WriteToServer(fileData);
                     }
-                    s.WriteToServer(fileData);
                 }
             }
+            catch (Exception e)
+            {
+                LogHelper.Log("Cannot insert data " + e);
+                throw;
+            }
+
+            LogHelper.Log("Data inserted");
         }
     }
 }

@@ -9,3 +9,11 @@ D:\Dev\DashSource\DashSource\obj\Debug\DashSource.pdb
 D:\Dev\DashSource\DashSource\bin\Debug\DashSource.exe
 D:\Dev\DashSource\DashSource\bin\Debug\DashSource.pdb
 D:\Dev\DashSource\DashSource\obj\Debug\DashSource.csprojResolveAssemblyReference.cache
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\DashSource.exe.config
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\obj\Debug\DashSource.exe
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\obj\Debug\DashSource.pdb
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\DashSource.exe
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\DashSource.pdb
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\obj\Debug\DashSource.csprojResolveAssemblyReference.cache

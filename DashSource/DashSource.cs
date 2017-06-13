@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,15 +14,25 @@ namespace DashSource
     {
         static void Main(string[] args)
         {
-            string sourceFilePath = @"C:\Users\vasil\Desktop\Dimo\KPI_Status_12-Jun-2017.csv";
-            string tableName = "dr_kpis";
+            ////Downloader
+            //LogHelper.Log("Downloader START");
+            //Downloader downloader = new Downloader();
+            //downloader.downloadAttachments();
+            //LogHelper.Log("Downloader END");
+
+            //Loader
+            LogHelper.Log("Loader START");
+            string sourceFilePath = "TX3_TRACKING_13-Jun-2017.csv";
+            string tableName = "DR_TX3_TRACKING";
 
             Loader ldr = new Loader();
             var columnNames = ldr.getTableColumns(tableName);
-            
+
             var parsedFile = ldr.GetDataTabletFromCSVFile(sourceFilePath);
-            ldr.InsertDataIntoSQLServerUsingSQLBulkCopy(parsedFile, tableName, columnNames);           
-        }
-        
+            ldr.InsertDataIntoSQLServerUsingSQLBulkCopy(parsedFile, tableName, columnNames);
+            ldr.moveToArchive(sourceFilePath);
+            LogHelper.Log("Loader END");
+            
+        } 
     }
 }

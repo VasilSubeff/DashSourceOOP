@@ -1,0 +1,181 @@
+13/06/17 2:36:05 PM: Connected to mailbox
+13/06/17 2:36:09 PM: Found email input fodler
+13/06/17 2:36:11 PM: Found email processed folder
+13/06/17 2:36:14 PM: Emails loaded
+13/06/17 2:36:15 PM: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 2:36:16 PM: File attachment name: TX3_FAILURE_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 2:36:16 PM: Email moved to processed
+13/06/17 2:36:28 PM: Connected to mailbox
+13/06/17 2:36:32 PM: Found email input fodler
+13/06/17 2:36:33 PM: Found email processed folder
+13/06/17 2:36:34 PM: No emails foundSystem.ArgumentException: The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at DashSource.Downloader.downloadAttachments() in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Downloader.cs:line 73
+13/06/17 3:08:15 PM: Downloader START
+13/06/17 3:08:24 PM: Connected to mailbox
+13/06/17 3:08:26 PM: Found email input fodler
+13/06/17 3:08:28 PM: Found email processed folder
+13/06/17 3:08:29 PM: Emails loaded
+13/06/17 3:08:30 PM: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 3:08:30 PM: File attachment name: TX3_FAILURE_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 3:08:31 PM: Email moved to processed
+13/06/17 3:08:31 PM: Downloader END
+13/06/17 3:46:21 PM: Downloader START
+13/06/17 3:46:31 PM: Connected to mailbox
+13/06/17 3:46:33 PM: Found email input fodler
+13/06/17 3:46:36 PM: Found email processed folder
+13/06/17 3:46:37 PM: Emails loaded
+13/06/17 3:46:38 PM: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 3:46:38 PM: Email moved to processed
+13/06/17 3:46:38 PM: Downloader END
+13/06/17 3:46:38 PM: Loader START
+13/06/17 3:46:38 PM: Table columns retrieved
+13/06/17 3:46:38 PM: DataTable initialized
+13/06/17 3:46:38 PM: Data inserted
+13/06/17 3:46:38 PM: Loader END
+13/06/17 3:47:21 PM: Downloader START
+13/06/17 3:47:32 PM: Connected to mailbox
+13/06/17 3:47:34 PM: Found email input fodler
+13/06/17 3:47:36 PM: Found email processed folder
+13/06/17 3:47:37 PM: Emails loaded
+13/06/17 3:47:39 PM: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 3:47:39 PM: Email moved to processed
+13/06/17 3:47:39 PM: Downloader END
+13/06/17 3:47:39 PM: Loader START
+13/06/17 3:47:39 PM: Table columns retrieved
+13/06/17 3:47:39 PM: DataTable initialized
+13/06/17 3:47:40 PM: Data inserted
+13/06/17 3:47:40 PM: Loader END
+13/06/17 3:54:42 PM: Downloader START
+13/06/17 3:54:51 PM: Connected to mailbox
+13/06/17 3:54:54 PM: Found email input fodler
+13/06/17 3:54:56 PM: Found email processed folder
+13/06/17 3:54:58 PM: Emails loaded
+13/06/17 3:54:59 PM: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 3:54:59 PM: Email moved to processed
+13/06/17 3:54:59 PM: Downloader END
+13/06/17 3:54:59 PM: Loader START
+13/06/17 3:54:59 PM: Table columns retrieved
+13/06/17 3:54:59 PM: DataTable initialized
+13/06/17 3:54:59 PM: Data inserted
+13/06/17 3:54:59 PM: Loader END
+13/06/17 3:58:43 PM: Downloader START
+13/06/17 3:58:52 PM: Connected to mailbox
+13/06/17 3:58:54 PM: Found email input fodler
+13/06/17 3:58:56 PM: Found email processed folder
+13/06/17 3:58:57 PM: No emails foundSystem.ArgumentException: The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at DashSource.Downloader.downloadAttachments() in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Downloader.cs:line 73
+13/06/17 3:58:57 PM: Downloader END
+13/06/17 3:58:57 PM: Loader START
+13/06/17 3:58:57 PM: Table columns retrieved
+13/06/17 3:58:57 PM: DataTable initialized
+13/06/17 3:58:57 PM: Data inserted
+13/06/17 3:58:57 PM: Loader END
+13/06/17 4:10:57 PM: Downloader START
+13/06/17 4:11:06 PM: Connected to mailbox
+13/06/17 4:11:09 PM: Found email input fodler
+13/06/17 4:11:10 PM: Found email processed folder
+13/06/17 4:11:12 PM: Emails loaded
+13/06/17 4:11:14 PM: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+13/06/17 4:11:15 PM: Email moved to processed
+13/06/17 4:11:15 PM: Downloader END
+13/06/17 4:11:15 PM: Loader START
+13/06/17 4:11:15 PM: Table columns retrieved
+13/06/17 4:11:15 PM: DataTable initialized
+13/06/17 4:11:16 PM: Data inserted
+13/06/17 4:11:16 PM: Archive directory created C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613
+13/06/17 4:11:16 PM: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String filePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 57
+13/06/17 4:12:53 PM: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.DashSource.Main(String[] args) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\DashSource.cs:line 56
+13/06/17 4:15:56 PM: Loader START
+13/06/17 4:15:56 PM: Table columns retrieved
+13/06/17 4:15:56 PM: DataTable initialized
+13/06/17 4:15:56 PM: Data inserted
+13/06/17 4:15:56 PM: Loader END
+13/06/17 4:16:13 PM: Loader START
+13/06/17 4:16:13 PM: Table columns retrieved
+13/06/17 4:16:13 PM: DataTable initialized
+13/06/17 4:16:13 PM: Data inserted
+13/06/17 4:16:13 PM: File could not be moved to ARCHIVE System.IO.FileNotFoundException: Could not find file 'C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\TX3_TRACKING_13-Jun-2017.csv'.
+File name: 'C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\TX3_TRACKING_13-Jun-2017.csv'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String filePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 65
+13/06/17 4:16:31 PM: Loader START
+13/06/17 4:16:31 PM: Table columns retrieved
+13/06/17 4:16:31 PM: DataTable initialized
+13/06/17 4:16:31 PM: Data inserted
+13/06/17 4:16:31 PM: File could not be moved to ARCHIVE System.IO.FileNotFoundException: Could not find file 'C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\TX3_TRACKING_13-Jun-2017.csv'.
+File name: 'C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\TX3_TRACKING_13-Jun-2017.csv'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String filePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 65
+13/06/17 4:17:29 PM: Loader START
+13/06/17 4:17:29 PM: Table columns retrieved
+13/06/17 4:17:29 PM: DataTable initialized
+13/06/17 4:17:29 PM: Data inserted
+13/06/17 4:17:29 PM: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String fileName) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 66
+13/06/17 4:17:46 PM: Loader START
+13/06/17 4:17:46 PM: Table columns retrieved
+13/06/17 4:17:46 PM: DataTable initialized
+13/06/17 4:17:46 PM: Data inserted
+13/06/17 4:17:46 PM: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String fileName) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 67
+13/06/17 4:18:40 PM: Loader START
+13/06/17 4:18:40 PM: Table columns retrieved
+13/06/17 4:18:40 PM: DataTable initialized
+13/06/17 4:18:40 PM: Data inserted
+13/06/17 4:18:40 PM: Archive directory created C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_TRACKING_13-Jun-2017.csv
+13/06/17 4:18:40 PM: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String fileName) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 66
+13/06/17 4:18:51 PM: Loader START
+13/06/17 4:18:51 PM: Table columns retrieved
+13/06/17 4:18:51 PM: DataTable initialized
+13/06/17 4:18:51 PM: Data inserted
+13/06/17 4:18:51 PM: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String fileName) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 68
+13/06/17 4:21:01 PM: Loader START
+13/06/17 4:21:01 PM: Table columns retrieved
+13/06/17 4:21:01 PM: DataTable initialized
+13/06/17 4:21:01 PM: Data inserted
+13/06/17 4:21:01 PM: File moved to ARCHIVEC:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_TRACKING_13-Jun-2017.csv
+13/06/17 4:21:01 PM: Loader END
+13/06/17 4:21:22 PM: Loader START
+13/06/17 4:21:22 PM: Table columns retrieved
+13/06/17 4:21:22 PM: DataTable initialized
+13/06/17 4:21:22 PM: Data inserted
+13/06/17 4:21:22 PM: File moved to ARCHIVEC:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_TRACKING_13-Jun-2017.csv
+13/06/17 4:21:22 PM: Loader END

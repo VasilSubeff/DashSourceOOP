@@ -35,11 +35,74 @@ namespace DashSource.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=INFINITYCASTLE;Initial Catalog=test;Persist Security Info=True;User I" +
-            "D=backo;Password=letmein3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=VASILS02\\POWERBI;Initial Catalog=dailyreport;Persist Security Info=Tr" +
+            "ue;User ID=admin;Password=admin")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("input")]
+        public string emailInputFolderSetting {
+            get {
+                return ((string)(this["emailInputFolderSetting"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("processed")]
+        public string emailProcessedFolderSetting {
+            get {
+                return ((string)(this["emailProcessedFolderSetting"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\vasils\\Desktop\\DailyReport Project\\INPUT\\")]
+        public string inputDirectorySetting {
+            get {
+                return ((string)(this["inputDirectorySetting"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("vasils@amdocs.com")]
+        public string userSetting {
+            get {
+                return ((string)(this["userSetting"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Alkash888")]
+        public string passwordSetting {
+            get {
+                return ((string)(this["passwordSetting"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("log\\DashboardLog.txt")]
+        public string logPathSetting {
+            get {
+                return ((string)(this["logPathSetting"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\vasils\\Desktop\\DailyReport Project\\ARCHIVE\\")]
+        public string archiveDirSetting {
+            get {
+                return ((string)(this["archiveDirSetting"]));
             }
         }
     }
