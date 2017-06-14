@@ -1,0 +1,12 @@
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\bin\Debug\DashSourceConfiguration.exe.config
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\bin\Debug\DashSourceConfiguration.exe
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\bin\Debug\DashSourceConfiguration.pdb
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\bin\Debug\MetroFramework.Design.dll
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\bin\Debug\MetroFramework.dll
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\obj\Debug\DashSourceConfiguration.csprojResolveAssemblyReference.cache
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\obj\Debug\DashSourceConfiguration.Properties.Resources.resources
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\obj\Debug\DashSourceConfiguration.csproj.GenerateResource.Cache
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\obj\Debug\DashSourceConfiguration.exe
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\obj\Debug\DashSourceConfiguration.pdb
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSourceConfiguration\obj\Debug\DashSourceConfiguration.Form1.resources

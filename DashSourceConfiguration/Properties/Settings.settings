@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DashSourceConfiguration.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="backendSettings" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSource.exe.config</Value>
+    </Setting>
+    <Setting Name="backEndAppName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DashSource</Value>
+    </Setting>
+    <Setting Name="frontEndAppName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DashSourceConfiguration</Value>
+    </Setting>
+    <Setting Name="fronEndConfigFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DashSourceConfiguration.exe.config</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
