@@ -25,12 +25,12 @@ namespace DashSource
                 tableName = ldr.getTableName(file);
                 var columnNames = ldr.getTableColumns(tableName);
                 var parsedFile = ldr.GetDataTabletFromCSVFile(file);
+                ldr.TruncateTable(tableName);
                 ldr.InsertDataIntoSQLServerUsingSQLBulkCopy(parsedFile, tableName, columnNames);
                 ldr.moveToArchive(file);
             }
             LogHelper.Log("Loader END");
 
-            //TODO: Truncate tables before loading
             //TODO: GUI
             //TODO: Add comments in the classes
         }

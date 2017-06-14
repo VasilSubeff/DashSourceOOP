@@ -1,45 +1,47 @@
-[13/6/2017 11:47:59 PM]: Downloader START
-[13/6/2017 11:48:55 PM]: Downloader START
-[13/6/2017 11:49:31 PM]: Connected to mailbox
-[13/6/2017 11:49:32 PM]: Found email input fodler
-[13/6/2017 11:49:33 PM]: Found email processed folder
-[13/6/2017 11:49:33 PM]: Emails loaded
-[13/6/2017 11:49:34 PM]: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
-[13/6/2017 11:49:34 PM]: File attachment name: TX3_FAILURE_TRACKING_13-Jun-2017.csv downloaded
-[13/6/2017 11:49:35 PM]: Email marked as Read
-[13/6/2017 11:49:35 PM]: Email moved to processed
-[13/6/2017 11:49:35 PM]: Downloader END
-[13/6/2017 11:49:35 PM]: Loader START
-[13/6/2017 11:49:35 PM]: Loading TX3_FAILURE_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:49:35 PM]: Table columns retrieved
-[13/6/2017 11:49:35 PM]: DataTable initialized
-[13/6/2017 11:49:35 PM]: Data inserted
-[13/6/2017 11:49:35 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_FAILURE_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:49:35 PM]: Loading TX3_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:49:35 PM]: Table columns retrieved
-[13/6/2017 11:49:35 PM]: DataTable initialized
-[13/6/2017 11:49:35 PM]: Data inserted
-[13/6/2017 11:49:35 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:49:35 PM]: Loader END
-[13/6/2017 11:50:19 PM]: Downloader START
-[13/6/2017 11:50:52 PM]: Connected to mailbox
-[13/6/2017 11:50:53 PM]: Found email input fodler
-[13/6/2017 11:50:53 PM]: Found email processed folder
-[13/6/2017 11:50:54 PM]: Emails loaded
-[13/6/2017 11:50:55 PM]: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
-[13/6/2017 11:50:55 PM]: File attachment name: TX3_FAILURE_TRACKING_13-Jun-2017.csv downloaded
-[13/6/2017 11:50:55 PM]: Email marked as Read
-[13/6/2017 11:50:56 PM]: Email moved to processed
-[13/6/2017 11:50:56 PM]: Downloader END
-[13/6/2017 11:50:56 PM]: Loader START
-[13/6/2017 11:50:56 PM]: Loading TX3_FAILURE_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:50:56 PM]: Table columns retrieved
-[13/6/2017 11:50:56 PM]: DataTable initialized
-[13/6/2017 11:50:56 PM]: Data inserted
-[13/6/2017 11:50:56 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_FAILURE_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:50:56 PM]: Loading TX3_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:50:56 PM]: Table columns retrieved
-[13/6/2017 11:50:56 PM]: DataTable initialized
-[13/6/2017 11:50:56 PM]: Data inserted
-[13/6/2017 11:50:56 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170613\TX3_TRACKING_13-Jun-2017.csv
-[13/6/2017 11:50:56 PM]: Loader END
+[14/06/17 11:44:28 AM]: Downloader START
+[14/06/17 11:44:44 AM]: Connected to mailbox
+[14/06/17 11:44:46 AM]: Found email input fodler
+[14/06/17 11:44:46 AM]: Found email processed folder
+[14/06/17 11:44:47 AM]: Emails loaded
+[14/06/17 11:44:49 AM]: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+[14/06/17 11:44:50 AM]: File attachment name: TX3_FAILURE_TRACKING_13-Jun-2017.csv downloaded
+[14/06/17 11:44:51 AM]: Email marked as Read
+[14/06/17 11:44:51 AM]: Email moved to processed
+[14/06/17 11:44:51 AM]: Downloader END
+[14/06/17 11:44:51 AM]: Loader START
+[14/06/17 11:44:51 AM]: Loading TX3_FAILURE_TRACKING_13-Jun-2017.csv
+[14/06/17 11:44:51 AM]: Table columns retrieved
+[14/06/17 11:44:51 AM]: DataTable initialized
+[14/06/17 11:44:51 AM]: Data inserted
+[14/06/17 11:44:51 AM]: Archive directory created C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170614
+[14/06/17 11:44:51 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170614\TX3_FAILURE_TRACKING_13-Jun-2017.csv
+[14/06/17 11:44:51 AM]: Loading TX3_TRACKING_13-Jun-2017.csv
+[14/06/17 11:44:51 AM]: Table columns retrieved
+[14/06/17 11:44:51 AM]: DataTable initialized
+[14/06/17 11:44:51 AM]: Data inserted
+[14/06/17 11:44:51 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170614\TX3_TRACKING_13-Jun-2017.csv
+[14/06/17 11:44:51 AM]: Loader END
+[14/06/17 11:55:36 AM]: Downloader START
+[14/06/17 11:55:54 AM]: Connected to mailbox
+[14/06/17 11:55:56 AM]: Found email input fodler
+[14/06/17 11:55:57 AM]: Found email processed folder
+[14/06/17 11:55:58 AM]: Emails loaded
+[14/06/17 11:55:58 AM]: File attachment name: TX3_TRACKING_13-Jun-2017.csv downloaded
+[14/06/17 11:55:59 AM]: File attachment name: TX3_FAILURE_TRACKING_13-Jun-2017.csv downloaded
+[14/06/17 11:55:59 AM]: Email marked as Read
+[14/06/17 11:56:00 AM]: Email moved to processed
+[14/06/17 11:56:00 AM]: Downloader END
+[14/06/17 11:56:00 AM]: Loader START
+[14/06/17 11:56:00 AM]: Loading TX3_FAILURE_TRACKING_13-Jun-2017.csv
+[14/06/17 11:56:00 AM]: Table columns retrieved
+[14/06/17 11:56:00 AM]: DataTable initialized
+[14/06/17 11:56:00 AM]: Table DR_TX3_FAILURE_TRACKING truncated
+[14/06/17 11:56:00 AM]: Data inserted
+[14/06/17 11:56:00 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170614\TX3_FAILURE_TRACKING_13-Jun-2017.csv
+[14/06/17 11:56:00 AM]: Loading TX3_TRACKING_13-Jun-2017.csv
+[14/06/17 11:56:00 AM]: Table columns retrieved
+[14/06/17 11:56:00 AM]: DataTable initialized
+[14/06/17 11:56:00 AM]: Table DR_TX3_TRACKING truncated
+[14/06/17 11:56:00 AM]: Data inserted
+[14/06/17 11:56:00 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170614\TX3_TRACKING_13-Jun-2017.csv
+[14/06/17 11:56:00 AM]: Loader END

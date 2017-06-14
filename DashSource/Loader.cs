@@ -55,6 +55,19 @@ namespace DashSource
             return list;
         }
 
+        public void TruncateTable(string tableName)
+        {
+            using (SqlConnection connection = new SqlConnection(this.ConnectionString))
+            {
+                string query = "TRUNCATE TABLE " + tableName;
+                SqlCommand cmd = new SqlCommand(query, connection);
+                connection.Open();
+                cmd.ExecuteNonQuery();
+                LogHelper.Log(String.Format("Table {0} truncated", tableName));
+            }
+                
+        }
+
         public string getTableName(string fileName)
         {
             string tableName = fileName.Substring(0, fileName.LastIndexOf("_"));
@@ -83,8 +96,7 @@ namespace DashSource
 
             try
             {
-                File.Replace(fullFilePath, fullArchive, fullArchive + "_");
-                File.Delete(fullArchive + "_");
+                File.Move(fullFilePath, fullArchive);
                 LogHelper.Log("File moved to ARCHIVE " + fullArchive);
             }
             catch (Exception e)
