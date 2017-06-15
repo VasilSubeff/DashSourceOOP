@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.Exchange.WebServices.Data;
+using System.IO;
 
 namespace DashSource
 {
@@ -77,6 +78,12 @@ namespace DashSource
                     if (item.HasAttachments)
                     {
                         this.GetAttachmentsFromEmail(service, item.Id);
+                    }
+                    else
+                    {
+                        this.saveEmailBody(service, item.Id);
+                        //TODO: spool body to file
+                        //TODO: Replace
                     }
 
                     this.MarkEmailAsRead(service, item.Id);
@@ -179,6 +186,20 @@ namespace DashSource
 
                 LogHelper.Log("Attachment cannot be downloader" + e);
                 throw;
+            }
+        }
+
+        private void saveEmailBody(ExchangeService service, ItemId itemId)
+        {
+            var propSet = new PropertySet(ItemSchema.Body);
+            propSet.RequestedBodyType = BodyType.Text;
+            propSet.BasePropertySet = BasePropertySet.FirstClassProperties;
+            EmailMessage message = EmailMessage.Bind(service, itemId, propSet);
+
+
+            using (StreamWriter file = new StreamWriter(Properties.Settings.Default.inputDirectorySetting + message.Subject))
+            {
+                file.WriteLine(message.Body.Text);
             }
         }
 

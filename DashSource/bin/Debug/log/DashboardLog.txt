@@ -49,3 +49,108 @@
 [15/06/17 3:08:05 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170615\TX3_TRACKING_15-Jun-2017-1253.csv
 [15/06/17 3:08:05 PM]: Loader END
 [15/06/17 4:27:53 PM]: Downloader START
+[15/06/17 4:46:52 PM]: Downloader START
+[15/06/17 4:47:09 PM]: Connected to mailbox
+[15/06/17 4:47:11 PM]: Found email input fodler
+[15/06/17 4:47:13 PM]: Found email processed folder
+[15/06/17 4:47:15 PM]: Emails loaded
+[15/06/17 4:47:17 PM]: Email marked as Read
+[15/06/17 4:47:19 PM]: Email moved to processed
+[15/06/17 4:47:19 PM]: Downloader END
+[15/06/17 4:47:19 PM]: Loader START
+[15/06/17 4:47:19 PM]: Loader END
+[15/06/17 4:48:12 PM]: Downloader START
+[15/06/17 4:48:27 PM]: Connected to mailbox
+[15/06/17 4:48:28 PM]: Found email input fodler
+[15/06/17 4:48:29 PM]: Found email processed folder
+[15/06/17 4:48:30 PM]: No emails foundSystem.ArgumentException: The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at DashSource.Downloader.downloadAttachments() in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Downloader.cs:line 72
+[15/06/17 4:48:30 PM]: Downloader END
+[15/06/17 4:48:30 PM]: Loader START
+[15/06/17 4:48:30 PM]: Loader END
+[15/06/17 4:51:40 PM]: Downloader START
+[15/06/17 4:51:55 PM]: Connected to mailbox
+[15/06/17 4:51:56 PM]: Found email input fodler
+[15/06/17 4:51:57 PM]: Found email processed folder
+[15/06/17 4:51:58 PM]: Emails loaded
+[15/06/17 4:51:59 PM]: Email marked as Read
+[15/06/17 4:51:59 PM]: Email moved to processed
+[15/06/17 4:51:59 PM]: Downloader END
+[15/06/17 4:51:59 PM]: Loader START
+[15/06/17 4:51:59 PM]: Loader END
+[15/06/17 4:52:13 PM]: Downloader START
+[15/06/17 4:52:28 PM]: Connected to mailbox
+[15/06/17 4:52:30 PM]: Found email input fodler
+[15/06/17 4:52:31 PM]: Found email processed folder
+[15/06/17 4:52:32 PM]: Emails loaded
+[15/06/17 4:53:32 PM]: Downloader START
+[15/06/17 4:53:46 PM]: Connected to mailbox
+[15/06/17 4:53:48 PM]: Found email input fodler
+[15/06/17 4:53:50 PM]: Found email processed folder
+[15/06/17 4:53:50 PM]: No emails foundSystem.ArgumentException: The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at DashSource.Downloader.downloadAttachments() in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Downloader.cs:line 72
+[15/06/17 4:53:50 PM]: Downloader END
+[15/06/17 4:53:50 PM]: Loader START
+[15/06/17 4:53:50 PM]: Loader END
+[15/06/17 4:54:04 PM]: Downloader START
+[15/06/17 4:54:18 PM]: Connected to mailbox
+[15/06/17 4:54:20 PM]: Found email input fodler
+[15/06/17 4:54:22 PM]: Found email processed folder
+[15/06/17 4:54:23 PM]: Emails loaded
+[15/06/17 4:54:24 PM]: Email marked as Read
+[15/06/17 4:54:25 PM]: Email moved to processed
+[15/06/17 4:54:25 PM]: Downloader END
+[15/06/17 4:54:25 PM]: Loader START
+[15/06/17 4:54:25 PM]: Loader END
+[15/06/17 4:59:14 PM]: Downloader START
+[15/06/17 4:59:29 PM]: Connected to mailbox
+[15/06/17 4:59:31 PM]: Found email input fodler
+[15/06/17 4:59:32 PM]: Found email processed folder
+[15/06/17 4:59:33 PM]: Emails loaded
+[15/06/17 4:59:35 PM]: Email marked as Read
+[15/06/17 4:59:35 PM]: Email moved to processed
+[15/06/17 4:59:35 PM]: Downloader END
+[15/06/17 4:59:35 PM]: Loader START
+[15/06/17 4:59:35 PM]: Loader END
+[15/06/17 5:01:20 PM]: Downloader START
+[15/06/17 5:01:35 PM]: Connected to mailbox
+[15/06/17 5:01:37 PM]: Found email input fodler
+[15/06/17 5:01:38 PM]: Found email processed folder
+[15/06/17 5:01:39 PM]: Emails loaded
+[15/06/17 5:01:41 PM]: Email marked as Read
+[15/06/17 5:01:41 PM]: Email moved to processed
+[15/06/17 5:01:41 PM]: Downloader END
+[15/06/17 5:01:41 PM]: Loader START
+[15/06/17 5:01:41 PM]: Loading File_Acquisition_15-Jun-2017.csv
+[15/06/17 5:01:42 PM]: Table columns retrieved
+[15/06/17 5:01:42 PM]: DataTable initialized
+[15/06/17 5:03:24 PM]: Downloader START
+[15/06/17 5:03:42 PM]: Connected to mailbox
+[15/06/17 5:03:44 PM]: Found email input fodler
+[15/06/17 5:03:45 PM]: Found email processed folder
+[15/06/17 5:03:46 PM]: Emails loaded
+[15/06/17 5:03:48 PM]: Email marked as Read
+[15/06/17 5:03:49 PM]: Email moved to processed
+[15/06/17 5:03:49 PM]: Downloader END
+[15/06/17 5:03:49 PM]: Loader START
+[15/06/17 5:03:49 PM]: Loading File_Acquisition_15-Jun-2017.csv
+[15/06/17 5:03:49 PM]: Table columns retrieved
+[15/06/17 5:03:49 PM]: DataTable initialized
+[15/06/17 5:05:22 PM]: Downloader START
+[15/06/17 5:05:36 PM]: Connected to mailbox
+[15/06/17 5:05:38 PM]: Found email input fodler
+[15/06/17 5:05:39 PM]: Found email processed folder
+[15/06/17 5:05:40 PM]: Emails loaded
+[15/06/17 5:05:42 PM]: Email marked as Read
+[15/06/17 5:05:42 PM]: Email moved to processed
+[15/06/17 5:05:42 PM]: Downloader END
+[15/06/17 5:05:42 PM]: Loader START
+[15/06/17 5:05:42 PM]: Loading File_Acquisition_15-Jun-2017.csv
+[15/06/17 5:05:42 PM]: Table columns retrieved
+[15/06/17 5:05:42 PM]: DataTable initialized
