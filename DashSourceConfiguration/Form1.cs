@@ -29,9 +29,7 @@ namespace DashSourceConfiguration
             }
             catch (Exception ex)
             {
-
-                MetroFramework.MetroMessageBox.Show(this, ex.ToString(), "Invalid configuration file", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                
+                MetroFramework.MetroMessageBox.Show(this, ex.ToString(), "Invalid configuration file", MessageBoxButtons.OK, MessageBoxIcon.Error); 
             }
         }
 
@@ -39,7 +37,6 @@ namespace DashSourceConfiguration
         private void Form1_Load(object sender, EventArgs e)
         {
             settingsFilePathTxtBox.Text = Properties.Settings.Default.backendSettings;
-            
         }
 
         private void browseButton_Click(object sender, EventArgs e)
@@ -51,13 +48,6 @@ namespace DashSourceConfiguration
                 string file = openFileDialog1.FileName;
                 settingsFilePathTxtBox.Text = file;
             }
-
-            
-        }
-
-        private void fileInputTxtBox_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void inputBrowseButton_Click(object sender, EventArgs e)
@@ -113,7 +103,6 @@ namespace DashSourceConfiguration
             }
             catch (Exception ex)
             {
-
                 MetroFramework.MetroMessageBox.Show(this, "Cannot reset settings", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -160,7 +149,6 @@ namespace DashSourceConfiguration
             catch (Exception ex)
             {
                 MetroFramework.MetroMessageBox.Show(this, ex.ToString(), "Cannot start DashSource.exe", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
             }
         }
     }
