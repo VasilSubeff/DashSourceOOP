@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Exchange.WebServices.Data;
 using System.IO;
+using System.Linq;
 
 namespace DashSource
 {
@@ -191,23 +192,67 @@ namespace DashSource
 
         private void saveEmailBody(ExchangeService service, ItemId itemId)
         {
-            var propSet = new PropertySet(ItemSchema.Body);
-            propSet.RequestedBodyType = BodyType.Text;
-            propSet.BasePropertySet = BasePropertySet.FirstClassProperties;
-            EmailMessage message = EmailMessage.Bind(service, itemId, propSet);
-
-
-            using (StreamWriter file = new StreamWriter(Properties.Settings.Default.inputDirectorySetting + message.Subject))
+            try
             {
-                file.WriteLine(message.Body.Text);
+                var propSet = new PropertySet(ItemSchema.Body);
+                propSet.RequestedBodyType = BodyType.Text;
+                propSet.BasePropertySet = BasePropertySet.FirstClassProperties;
+                EmailMessage message = EmailMessage.Bind(service, itemId, propSet);
+
+                string filePath = Properties.Settings.Default.inputDirectorySetting + message.Subject + ".input";
+                string filePathOutput = Properties.Settings.Default.inputDirectorySetting + message.Subject + "-" + DateTime.Now.Hour + DateTime.Now.Minute + ".txt";
+                string delimiter = Properties.Settings.Default.Delimiter;
+                //string delimiter = ",";
+                string line = null;
+
+                using (StreamWriter file = new StreamWriter(filePath))
+                {
+                    file.WriteLine(message.Body.Text);
+                }
+                LogHelper.Log(message.Subject + " body downloaded to input file");
+
+                int delimiterCount = File.ReadLines(filePath).First().Count(f => f == delimiter[0]);
+
+                //Remove lines without delimiters
+                using (StreamReader reader = new StreamReader(filePath))
+                {
+                    using (StreamWriter writer = new StreamWriter(filePathOutput))
+                    {
+                        while ((line = reader.ReadLine()) != null)
+                        {
+                            int currentDelimiterCount = line.Count(f => f == delimiter[0]);
+
+                            if (currentDelimiterCount == delimiterCount)
+                            {
+                                writer.WriteLine(line);
+                            }
+                        }
+                    }
+                }
+                LogHelper.Log(message.Subject + " output file created");
+                File.Delete(filePath);
+                LogHelper.Log(message.Subject + " input file deleted");
+            }
+            catch (Exception e)
+            {
+                LogHelper.Log("Cannot download body " + e);
+                throw;
             }
         }
 
         public void MarkEmailAsRead(ExchangeService service, ItemId itemId)
         {
-            EmailMessage email = EmailMessage.Bind(service, itemId, new PropertySet(BasePropertySet.FirstClassProperties, EmailMessageSchema.IsRead));
-            email.IsRead = true;
-            email.Update(ConflictResolutionMode.AlwaysOverwrite);
+            try
+            {
+                EmailMessage email = EmailMessage.Bind(service, itemId, new PropertySet(BasePropertySet.FirstClassProperties, EmailMessageSchema.IsRead));
+                email.IsRead = true;
+                email.Update(ConflictResolutionMode.AlwaysOverwrite);
+            }
+            catch (Exception e)
+            {
+                LogHelper.Log("Cannot mark email as read " + e);
+                throw;
+            }
         }
     }
 }

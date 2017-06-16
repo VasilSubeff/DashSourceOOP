@@ -154,3 +154,202 @@ Parameter name: items
 [15/06/17 5:05:42 PM]: Loading File_Acquisition_15-Jun-2017.csv
 [15/06/17 5:05:42 PM]: Table columns retrieved
 [15/06/17 5:05:42 PM]: DataTable initialized
+[16/06/17 11:15:11 AM]: Downloader START
+[16/06/17 11:15:22 AM]: Connected to mailbox
+[16/06/17 11:15:24 AM]: Found email input fodler
+[16/06/17 11:15:27 AM]: Found email processed folder
+[16/06/17 11:15:28 AM]: Emails loaded
+[16/06/17 11:15:30 AM]: Email marked as Read
+[16/06/17 11:15:31 AM]: Email moved to processed
+[16/06/17 11:15:31 AM]: Downloader END
+[16/06/17 11:15:31 AM]: Loader START
+[16/06/17 11:15:31 AM]: Loading File_Acquisition_15-Jun-2017 (2).txt
+[16/06/17 11:15:31 AM]: Table columns retrieved
+[16/06/17 11:15:31 AM]: DataTable initialized
+[16/06/17 11:16:33 AM]: Downloader START
+[16/06/17 11:16:41 AM]: Connected to mailbox
+[16/06/17 11:16:44 AM]: Found email input fodler
+[16/06/17 11:16:45 AM]: Found email processed folder
+[16/06/17 11:16:47 AM]: Emails loaded
+[16/06/17 11:16:49 AM]: Email marked as Read
+[16/06/17 11:16:50 AM]: Email moved to processed
+[16/06/17 11:16:50 AM]: Downloader END
+[16/06/17 11:16:50 AM]: Loader START
+[16/06/17 11:16:50 AM]: Loading Rule_Efficiency_Monthly_16-Jun-2017.csv.txt
+[16/06/17 11:16:50 AM]: Table columns retrieved
+[16/06/17 11:16:50 AM]: DataTable initialized
+[16/06/17 11:32:48 AM]: Downloader START
+[16/06/17 11:32:57 AM]: Connected to mailbox
+[16/06/17 11:32:59 AM]: Found email input fodler
+[16/06/17 11:33:00 AM]: Found email processed folder
+[16/06/17 11:33:01 AM]: Emails loaded
+[16/06/17 11:33:04 AM]: Email marked as Read
+[16/06/17 11:33:05 AM]: Email moved to processed
+[16/06/17 11:33:05 AM]: Downloader END
+[16/06/17 11:33:05 AM]: Loader START
+[16/06/17 11:33:05 AM]: Loading Last_Loading_16-Jun-2017.csv.txt
+[16/06/17 11:33:05 AM]: Table columns retrieved
+[16/06/17 11:33:05 AM]: DataTable initialized
+[16/06/17 11:42:36 AM]: Downloader START
+[16/06/17 11:42:54 AM]: Downloader START
+[16/06/17 11:43:02 AM]: Connected to mailbox
+[16/06/17 11:43:04 AM]: Found email input fodler
+[16/06/17 11:43:06 AM]: Found email processed folder
+[16/06/17 11:43:07 AM]: Emails loaded
+[16/06/17 11:43:08 AM]: Email marked as Read
+[16/06/17 11:43:09 AM]: Email moved to processed
+[16/06/17 11:43:09 AM]: Downloader END
+[16/06/17 11:43:09 AM]: Loader START
+[16/06/17 11:43:09 AM]: Loading Last_Loading_16-Jun-2017.csv.input
+[16/06/17 11:43:09 AM]: Table columns retrieved
+[16/06/17 11:43:09 AM]: DataTable initialized
+[16/06/17 11:45:00 AM]: Downloader START
+[16/06/17 11:45:07 AM]: Connected to mailbox
+[16/06/17 11:45:09 AM]: Found email input fodler
+[16/06/17 11:45:10 AM]: Found email processed folder
+[16/06/17 11:45:11 AM]: Emails loaded
+[16/06/17 11:45:13 AM]: Email marked as Read
+[16/06/17 11:45:13 AM]: Email moved to processed
+[16/06/17 11:45:13 AM]: Downloader END
+[16/06/17 11:45:13 AM]: Loader START
+[16/06/17 11:45:13 AM]: Loading Last_Loading_16-Jun-2017.csv.input
+[16/06/17 11:45:13 AM]: Table columns retrieved
+[16/06/17 11:45:13 AM]: DataTable initialized
+[16/06/17 11:46:46 AM]: Downloader START
+[16/06/17 11:46:54 AM]: Connected to mailbox
+[16/06/17 11:46:57 AM]: Found email input fodler
+[16/06/17 11:46:58 AM]: Found email processed folder
+[16/06/17 11:47:00 AM]: Emails loaded
+[16/06/17 11:47:02 AM]: Email marked as Read
+[16/06/17 11:47:02 AM]: Email moved to processed
+[16/06/17 11:47:02 AM]: Downloader END
+[16/06/17 11:47:02 AM]: Loader START
+[16/06/17 11:47:02 AM]: Loading Last_Loading_16-Jun-2017.csv.input
+[16/06/17 11:47:02 AM]: Table columns retrieved
+[16/06/17 11:47:02 AM]: DataTable initialized
+[16/06/17 11:49:18 AM]: Downloader START
+[16/06/17 11:49:27 AM]: Connected to mailbox
+[16/06/17 11:49:31 AM]: Found email input fodler
+[16/06/17 11:49:32 AM]: Found email processed folder
+[16/06/17 11:49:34 AM]: Emails loaded
+[16/06/17 11:49:36 AM]: Email marked as Read
+[16/06/17 11:49:37 AM]: Email moved to processed
+[16/06/17 11:49:37 AM]: Downloader END
+[16/06/17 11:49:37 AM]: Loader START
+[16/06/17 11:49:37 AM]: Loading Last_Loading_16-Jun-2017.csv.input
+[16/06/17 11:49:37 AM]: Table columns retrieved
+[16/06/17 11:49:37 AM]: DataTable initialized
+[16/06/17 11:50:41 AM]: Loader START
+[16/06/17 11:50:41 AM]: Loading Last_Loading_16-Jun-2017.csv.input
+[16/06/17 11:50:41 AM]: Table columns retrieved
+[16/06/17 11:50:41 AM]: DataTable initialized
+[16/06/17 11:51:37 AM]: Loader START
+[16/06/17 11:51:37 AM]: Loading Last_Loading_16-Jun-2017.csv.txt
+[16/06/17 11:51:37 AM]: Table columns retrieved
+[16/06/17 11:51:37 AM]: DataTable initialized
+[16/06/17 11:51:37 AM]: Table DR_Last_Loading truncated
+[16/06/17 11:51:37 AM]: Data inserted
+[16/06/17 11:51:37 AM]: Archive directory created C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616
+[16/06/17 11:51:37 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv.txt
+[16/06/17 11:51:37 AM]: Loader END
+[16/06/17 11:52:56 AM]: Downloader START
+[16/06/17 11:53:03 AM]: Connected to mailbox
+[16/06/17 11:53:05 AM]: Found email input fodler
+[16/06/17 11:53:07 AM]: Found email processed folder
+[16/06/17 11:53:08 AM]: Emails loaded
+[16/06/17 11:53:10 AM]: Email marked as Read
+[16/06/17 11:53:11 AM]: Email moved to processed
+[16/06/17 11:53:11 AM]: Downloader END
+[16/06/17 11:53:11 AM]: Loader START
+[16/06/17 11:53:11 AM]: Loading Last_Loading_16-Jun-2017.csv.txt
+[16/06/17 11:53:11 AM]: Table columns retrieved
+[16/06/17 11:53:11 AM]: DataTable initialized
+[16/06/17 11:53:11 AM]: Table DR_Last_Loading truncated
+[16/06/17 11:53:11 AM]: Data inserted
+[16/06/17 11:53:11 AM]: File could not be moved to ARCHIVE System.IO.IOException: Cannot create a file when that file already exists.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   at System.IO.File.Move(String sourceFileName, String destFileName)
+   at DashSource.Loader.moveToArchive(String fileName) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 99
+[16/06/17 11:56:01 AM]: Downloader START
+[16/06/17 11:56:43 AM]: Downloader START
+[16/06/17 11:56:51 AM]: Connected to mailbox
+[16/06/17 11:56:54 AM]: Found email input fodler
+[16/06/17 11:56:55 AM]: Found email processed folder
+[16/06/17 11:56:58 AM]: Emails loaded
+[16/06/17 11:57:00 AM]: Email marked as Read
+[16/06/17 11:57:00 AM]: Email moved to processed
+[16/06/17 11:57:03 AM]: File attachment name: TX3_TRACKING_14-Jun-2017-1036.csv downloaded
+[16/06/17 11:57:04 AM]: File attachment name: TX3_FAILURE_TRACKING_14-Jun-2017-1036.csv downloaded
+[16/06/17 11:57:06 AM]: Email marked as Read
+[16/06/17 11:57:07 AM]: Email moved to processed
+[16/06/17 11:57:07 AM]: Downloader END
+[16/06/17 11:57:07 AM]: Loader START
+[16/06/17 11:57:07 AM]: Loading Last_Loading_16-Jun-2017.csv.txt
+[16/06/17 11:57:07 AM]: Table columns retrieved
+[16/06/17 11:57:07 AM]: DataTable initialized
+[16/06/17 11:57:07 AM]: Table DR_Last_Loading truncated
+[16/06/17 11:57:07 AM]: Data inserted
+[16/06/17 11:57:07 AM]: Archive directory created C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616
+[16/06/17 11:57:07 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv.txt
+[16/06/17 11:57:07 AM]: Loading TX3_FAILURE_TRACKING_14-Jun-2017-1036.csv
+[16/06/17 11:57:07 AM]: Table columns retrieved
+[16/06/17 11:57:07 AM]: DataTable initialized
+[16/06/17 11:57:07 AM]: Table DR_TX3_FAILURE_TRACKING truncated
+[16/06/17 11:57:07 AM]: Data inserted
+[16/06/17 11:57:07 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_FAILURE_TRACKING_14-Jun-2017-1036.csv
+[16/06/17 11:57:07 AM]: Loading TX3_TRACKING_14-Jun-2017-1036.csv
+[16/06/17 11:57:07 AM]: Table columns retrieved
+[16/06/17 11:57:07 AM]: DataTable initialized
+[16/06/17 11:57:07 AM]: Table DR_TX3_TRACKING truncated
+[16/06/17 11:57:07 AM]: Data inserted
+[16/06/17 11:57:07 AM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_TRACKING_14-Jun-2017-1036.csv
+[16/06/17 11:57:07 AM]: Loader END
+[16/06/17 12:18:47 PM]: Downloader START
+[16/06/17 12:18:58 PM]: Connected to mailbox
+[16/06/17 12:19:00 PM]: Found email input fodler
+[16/06/17 12:19:01 PM]: Found email processed folder
+[16/06/17 12:19:04 PM]: Emails loaded
+[16/06/17 12:19:04 PM]: Email marked as Read
+[16/06/17 12:19:05 PM]: Email moved to processed
+[16/06/17 12:19:05 PM]: Downloader END
+[16/06/17 12:19:05 PM]: Loader START
+[16/06/17 12:19:05 PM]: Loading File_Acquisition_16-Jun-2017.csv1219.txt
+[16/06/17 12:19:05 PM]: Table columns retrieved
+[16/06/17 12:19:05 PM]: DataTable initialized
+[16/06/17 12:20:01 PM]: Downloader START
+[16/06/17 12:20:13 PM]: Connected to mailbox
+[16/06/17 12:20:15 PM]: Found email input fodler
+[16/06/17 12:20:16 PM]: Found email processed folder
+[16/06/17 12:20:17 PM]: Emails loaded
+[16/06/17 12:20:18 PM]: Email marked as Read
+[16/06/17 12:20:18 PM]: Email moved to processed
+[16/06/17 12:20:18 PM]: Downloader END
+[16/06/17 12:20:18 PM]: Loader START
+[16/06/17 12:20:18 PM]: Loading Last_Loading_16-Jun-2017.csv-1220.txt
+[16/06/17 12:20:18 PM]: Table columns retrieved
+[16/06/17 12:20:18 PM]: DataTable initialized
+[16/06/17 12:20:18 PM]: Table DR_Last_Loading truncated
+[16/06/17 12:20:18 PM]: Data inserted
+[16/06/17 12:20:18 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv-1220.txt
+[16/06/17 12:20:18 PM]: Loader END
+[16/06/17 12:23:23 PM]: Downloader START
+[16/06/17 12:23:36 PM]: Connected to mailbox
+[16/06/17 12:23:37 PM]: Found email input fodler
+[16/06/17 12:23:39 PM]: Found email processed folder
+[16/06/17 12:23:39 PM]: Emails loaded
+[16/06/17 12:23:40 PM]: Last_Loading_16-Jun-2017.csv body downloaded to input file
+[16/06/17 12:23:40 PM]: Last_Loading_16-Jun-2017.csv output file created
+[16/06/17 12:23:40 PM]: Last_Loading_16-Jun-2017.csv input file deleted
+[16/06/17 12:23:41 PM]: Email marked as Read
+[16/06/17 12:23:41 PM]: Email moved to processed
+[16/06/17 12:23:41 PM]: Downloader END
+[16/06/17 12:23:41 PM]: Loader START
+[16/06/17 12:23:41 PM]: Loading Last_Loading_16-Jun-2017.csv-1223.txt
+[16/06/17 12:23:41 PM]: Table columns retrieved
+[16/06/17 12:23:41 PM]: DataTable initialized
+[16/06/17 12:23:41 PM]: Table DR_Last_Loading truncated
+[16/06/17 12:23:41 PM]: Data inserted
+[16/06/17 12:23:41 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv-1223.txt
+[16/06/17 12:23:41 PM]: Loader END

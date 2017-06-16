@@ -32,7 +32,7 @@ namespace DashSource
             LogHelper.Log("Loader END");
 
             //TODO: Add comments in the classes
-            //TODO: Add email body downloading
+            //TODO: Parse alerts
         }
     }
 }
