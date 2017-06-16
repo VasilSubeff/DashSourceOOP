@@ -18,3 +18,6 @@ C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\
 C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\Microsoft.Exchange.WebServices.xml
 C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\obj\Debug\DashSource.csprojResolveAssemblyReference.cache
 D:\Dev\DashSource\DashSource\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\HtmlAgilityPack.dll
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\bin\Debug\HtmlAgilityPack.xml

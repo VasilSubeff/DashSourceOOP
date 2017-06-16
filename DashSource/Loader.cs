@@ -5,6 +5,8 @@ using System.Data;
 using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
+using System.Xml.XPath;
+using HtmlAgilityPack;
 
 namespace DashSource
 {
@@ -42,17 +44,74 @@ namespace DashSource
             }
         }
 
+        internal void ConvertAlert(string file)
+        {
+            try
+            {
+                string fullPath = Properties.Settings.Default.inputDirectorySetting + file;
+                string outputFile = fullPath + "#" + DateTime.Now.ToString("yyyyMMddhhmmss") + ".output.txt";
+
+                var htmlDoc = new HtmlDocument();
+                htmlDoc.Load(fullPath);
+
+                string columns = "DT|TL|PF|SV|HN|IP|CU|SN|SP|TH|FR|SD|DET";
+                string values = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}|{9}|{10}|{11}|TEST",
+                    DateTime.Now,
+                    htmlDoc.GetElementbyId("title").InnerText,
+                    htmlDoc.GetElementbyId("platform").InnerText,
+                    htmlDoc.GetElementbyId("severity").InnerText,
+                    htmlDoc.GetElementbyId("component").InnerText,
+                    htmlDoc.GetElementbyId("hostname").InnerText,
+                    htmlDoc.GetElementbyId("ip").InnerText,
+                    htmlDoc.GetElementbyId("user").InnerText,
+                    htmlDoc.GetElementbyId("scriptName").InnerText,
+                    htmlDoc.GetElementbyId("scriptPath").InnerText,
+                    htmlDoc.GetElementbyId("threshold").InnerText,
+                    htmlDoc.GetElementbyId("frequency").InnerText,
+                    htmlDoc.GetElementbyId("version").InnerText,
+                    htmlDoc.GetElementbyId("doc").InnerText);
+
+                File.Delete(fullPath);
+                using (StreamWriter writer = new StreamWriter(fullPath))
+                {
+                    writer.WriteLine(columns);
+                    writer.WriteLine(values);
+                }
+                LogHelper.Log(fullPath + " converted");
+            }
+            catch (Exception e)
+            {
+                LogHelper.Log("Cannot convert alert " + e);
+                throw;
+            }
+        }
         public List<string> getInputFiles()
         {
-            List<string> list = new List<string>();
-            var files = Directory.GetFiles(this.InputDirectory).Select(Path.GetFileName).ToArray();
-
-            foreach (var file in files)
+            try
             {
-                list.Add(file);
-            }
+                List<string> list = new List<string>();
+                var files = Directory.GetFiles(this.InputDirectory).Select(Path.GetFileName).ToArray();
 
-            return list;
+                foreach (var file in files)
+                {
+                    list.Add(file);
+                }
+
+                if (list.Count > 0)
+                {
+                    LogHelper.Log("Files found");
+                }
+                else
+                {
+                    LogHelper.Log("No files");
+                }
+                return list;
+            }
+            catch (Exception e)
+            {
+                LogHelper.Log("Files cannot be located " + e);
+                throw;
+            }
         }
 
         public void TruncateTable(string tableName)
@@ -74,7 +133,7 @@ namespace DashSource
             return "DR_" + tableName;
         }
 
-        public void moveToArchive(string fileName)
+        public void MoveToArchive(string fileName)
         {
             
             string dirDate = DateTime.Now.ToString("yyyyMMdd");
@@ -96,7 +155,7 @@ namespace DashSource
 
             try
             {
-                File.Move(fullFilePath, fullArchive);
+                File.Move(fullFilePath, fullArchive + "#" + DateTime.Now.ToString("yyyyMMddhhmmss") + ".txt");
                 LogHelper.Log("File moved to ARCHIVE " + fullArchive);
             }
             catch (Exception e)

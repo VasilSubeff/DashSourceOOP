@@ -353,3 +353,318 @@ Parameter name: items
 [16/06/17 12:23:41 PM]: Data inserted
 [16/06/17 12:23:41 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv-1223.txt
 [16/06/17 12:23:41 PM]: Loader END
+[16/06/17 1:24:59 PM]: Downloader START
+[16/06/17 1:25:00 PM]: Downloader START
+[16/06/17 1:48:26 PM]: Downloader START
+[16/06/17 1:48:37 PM]: Connected to mailbox
+[16/06/17 1:48:39 PM]: Found email input fodler
+[16/06/17 1:48:40 PM]: Found email processed folder
+[16/06/17 1:48:41 PM]: Emails loaded
+[16/06/17 1:48:42 PM]: Email marked as Read
+[16/06/17 1:48:43 PM]: Email moved to processed
+[16/06/17 1:48:43 PM]: Downloader END
+[16/06/17 1:48:43 PM]: Loader START
+[16/06/17 1:48:43 PM]: Loader END
+[16/06/17 1:54:40 PM]: Downloader START
+[16/06/17 1:54:53 PM]: Connected to mailbox
+[16/06/17 1:54:55 PM]: Found email input fodler
+[16/06/17 1:54:56 PM]: Found email processed folder
+[16/06/17 1:54:57 PM]: Emails loaded
+[16/06/17 1:54:58 PM]: Email marked as Read
+[16/06/17 1:54:59 PM]: Email moved to processed
+[16/06/17 1:54:59 PM]: Downloader END
+[16/06/17 2:01:23 PM]: Downloader START
+[16/06/17 2:01:46 PM]: Connected to mailbox
+[16/06/17 2:01:48 PM]: Found email input fodler
+[16/06/17 2:01:48 PM]: Found email processed folder
+[16/06/17 2:01:49 PM]: Emails loaded
+[16/06/17 2:01:50 PM]: Email marked as Read
+[16/06/17 2:01:50 PM]: Email moved to processed
+[16/06/17 2:01:50 PM]: Downloader END
+[16/06/17 2:03:19 PM]: Downloader START
+[16/06/17 2:03:36 PM]: Downloader START
+[16/06/17 2:03:51 PM]: Downloader START
+[16/06/17 2:04:03 PM]: Connected to mailbox
+[16/06/17 2:04:05 PM]: Found email input fodler
+[16/06/17 2:04:06 PM]: Found email processed folder
+[16/06/17 2:04:07 PM]: Emails loaded
+[16/06/17 2:04:08 PM]: Bell FV Info - FTG Waiting files in INPUT at 06:26:55, 2017-06-16 Email marked as Read
+[16/06/17 2:04:08 PM]: Bell FV Info - FTG Waiting files in INPUT at 06:26:55, 2017-06-16Email moved to processed
+[16/06/17 2:04:08 PM]: Downloader END
+[16/06/17 2:09:53 PM]: Downloader START
+[16/06/17 2:10:04 PM]: Connected to mailbox
+[16/06/17 2:10:05 PM]: Found email input fodler
+[16/06/17 2:10:07 PM]: Found email processed folder
+[16/06/17 2:10:07 PM]: Emails loaded
+[16/06/17 2:10:08 PM]: Bell FV Info - FTG Waiting files in INPUT at 06:26:55, 2017-06-16 Email marked as Read
+[16/06/17 2:10:08 PM]: Bell FV Info - FTG Waiting files in INPUT at 06:26:55, 2017-06-16Email moved to processed
+[16/06/17 2:10:08 PM]: Downloader END
+[16/06/17 2:29:01 PM]: Loader START
+[16/06/17 2:29:01 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 2:29:01 PM]: Table columns retrieved
+[16/06/17 2:29:01 PM]: Loader END
+[16/06/17 2:29:33 PM]: Loader START
+[16/06/17 2:29:33 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 2:29:33 PM]: Table columns retrieved
+[16/06/17 2:29:33 PM]: Loader END
+[16/06/17 2:29:40 PM]: Loader START
+[16/06/17 2:29:40 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 2:29:40 PM]: Table columns retrieved
+[16/06/17 2:29:40 PM]: Loader END
+[16/06/17 2:30:28 PM]: Loader START
+[16/06/17 2:30:28 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 2:30:28 PM]: Table columns retrieved
+[16/06/17 2:30:28 PM]: Loader END
+[16/06/17 2:30:56 PM]: Loader START
+[16/06/17 2:30:56 PM]: Loader END
+[16/06/17 2:31:22 PM]: Loader START
+[16/06/17 2:31:22 PM]: Loader END
+[16/06/17 2:32:04 PM]: Loader START
+[16/06/17 2:32:04 PM]: Loader END
+[16/06/17 2:33:04 PM]: Loader START
+[16/06/17 2:33:04 PM]: Loader END
+[16/06/17 2:33:21 PM]: Loader START
+[16/06/17 2:33:21 PM]: Loader END
+[16/06/17 2:33:56 PM]: Loader START
+[16/06/17 2:33:56 PM]: Loader END
+[16/06/17 2:41:06 PM]: Loader START
+[16/06/17 2:41:06 PM]: Loader END
+[16/06/17 2:44:36 PM]: Loader START
+[16/06/17 2:44:36 PM]: Loader END
+[16/06/17 2:45:04 PM]: Loader START
+[16/06/17 2:45:04 PM]: Loader END
+[16/06/17 2:46:23 PM]: Loader START
+[16/06/17 2:48:54 PM]: Loader START
+[16/06/17 2:48:54 PM]: Loader END
+[16/06/17 2:49:12 PM]: Loader START
+[16/06/17 2:49:19 PM]: Loader START
+[16/06/17 2:49:19 PM]: Loader END
+[16/06/17 2:49:36 PM]: Loader START
+[16/06/17 2:49:36 PM]: Loader END
+[16/06/17 2:50:15 PM]: Loader START
+[16/06/17 2:50:15 PM]: Loader END
+[16/06/17 2:50:22 PM]: Loader START
+[16/06/17 2:50:22 PM]: Loader END
+[16/06/17 3:05:12 PM]: Loader START
+[16/06/17 3:05:32 PM]: Loader START
+[16/06/17 3:05:57 PM]: Loader START
+[16/06/17 3:05:57 PM]: Loader END
+[16/06/17 3:06:31 PM]: Loader START
+[16/06/17 3:06:31 PM]: Loader END
+[16/06/17 3:06:37 PM]: Loader START
+[16/06/17 3:06:37 PM]: Loader END
+[16/06/17 3:06:43 PM]: Loader START
+[16/06/17 3:06:56 PM]: Loader START
+[16/06/17 3:06:57 PM]: Loader END
+[16/06/17 3:07:07 PM]: Loader START
+[16/06/17 3:07:07 PM]: Loader END
+[16/06/17 3:07:46 PM]: Loader START
+[16/06/17 3:07:46 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:12:16 PM]: Loader START
+[16/06/17 3:12:16 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:12:16 PM]: Table columns retrieved
+[16/06/17 3:12:16 PM]: Cannot convert file to DataTable System.IO.FileNotFoundException: Could not find file 'C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt'.
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.ValidatePath(String path)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.InitializeFromPath(String path, Encoding defaultEncoding, Boolean detectEncoding)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser..ctor(String path)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 190
+[16/06/17 3:14:21 PM]: Loader START
+[16/06/17 3:14:21 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:14:21 PM]: Table columns retrieved
+[16/06/17 3:14:21 PM]: Cannot convert file to DataTable System.IO.FileNotFoundException: Could not find file 'C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt'.
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.ValidatePath(String path)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.InitializeFromPath(String path, Encoding defaultEncoding, Boolean detectEncoding)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser..ctor(String path)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 190
+[16/06/17 3:15:30 PM]: Loader START
+[16/06/17 3:17:14 PM]: Loader START
+[16/06/17 3:17:14 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:17:14 PM]: Loader END
+[16/06/17 3:17:44 PM]: Loader START
+[16/06/17 3:17:44 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:17:44 PM]: Table columns retrieved
+[16/06/17 3:17:44 PM]: Cannot convert file to DataTable System.Data.DuplicateNameException: A column named 'DT' already belongs to this DataTable.
+   at System.Data.DataColumnCollection.RegisterColumnName(String name, DataColumn column)
+   at System.Data.DataColumnCollection.BaseAdd(DataColumn column)
+   at System.Data.DataColumnCollection.AddAt(Int32 index, DataColumn column)
+   at System.Data.DataColumnCollection.Add(DataColumn column)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 197
+[16/06/17 3:18:09 PM]: Loader START
+[16/06/17 3:18:10 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:18:10 PM]: Table columns retrieved
+[16/06/17 3:18:10 PM]: DataTable initialized
+[16/06/17 3:18:10 PM]: Table DR_BELL_ALERT truncated
+[16/06/17 3:18:10 PM]: Data inserted
+[16/06/17 3:18:10 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:18:10 PM]: Loader END
+[16/06/17 3:19:41 PM]: Downloader START
+[16/06/17 3:20:35 PM]: Downloader START
+[16/06/17 3:20:50 PM]: Connected to mailbox
+[16/06/17 3:20:52 PM]: Found email input fodler
+[16/06/17 3:20:53 PM]: Found email processed folder
+[16/06/17 3:20:54 PM]: Emails loaded
+[16/06/17 3:20:56 PM]: Bell FV Info - FTG Waiting files in INPUT at 06:26:55, 2017-06-16 Email marked as Read
+[16/06/17 3:20:56 PM]: Bell FV Info - FTG Waiting files in INPUT at 06:26:55, 2017-06-16Email moved to processed
+[16/06/17 3:20:57 PM]: Last_Loading_16-Jun-2017.csv body downloaded to input file
+[16/06/17 3:20:57 PM]: Last_Loading_16-Jun-2017.csv output file created
+[16/06/17 3:20:57 PM]: Last_Loading_16-Jun-2017.csv input file deleted
+[16/06/17 3:20:58 PM]: Last_Loading_16-Jun-2017.csv Email marked as Read
+[16/06/17 3:20:58 PM]: Last_Loading_16-Jun-2017.csvEmail moved to processed
+[16/06/17 3:20:58 PM]: File attachment name: TX3_TRACKING_15-Jun-2017-1253.csv downloaded
+[16/06/17 3:20:59 PM]: File attachment name: TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv downloaded
+[16/06/17 3:21:02 PM]: Daily Report Files for 15-Jun-2017-12:53 Email marked as Read
+[16/06/17 3:21:02 PM]: Daily Report Files for 15-Jun-2017-12:53Email moved to processed
+[16/06/17 3:21:02 PM]: Downloader END
+[16/06/17 3:21:02 PM]: Loader START
+[16/06/17 3:23:14 PM]: Loader START
+[16/06/17 3:34:43 PM]: Downloader START
+[16/06/17 3:34:57 PM]: Connected to mailbox
+[16/06/17 3:34:59 PM]: Found email input fodler
+[16/06/17 3:35:00 PM]: Found email processed folder
+[16/06/17 3:35:00 PM]: Emails loaded
+[16/06/17 3:35:01 PM]: Last_Loading_16-Jun-2017.csv body downloaded to input file
+[16/06/17 3:35:01 PM]: Last_Loading_16-Jun-2017.csv output file created
+[16/06/17 3:35:01 PM]: Last_Loading_16-Jun-2017.csv input file deleted
+[16/06/17 3:35:01 PM]: Last_Loading_16-Jun-2017.csv Email marked as Read
+[16/06/17 3:35:01 PM]: Last_Loading_16-Jun-2017.csvEmail moved to processed
+[16/06/17 3:35:05 PM]: File attachment name: TX3_TRACKING_15-Jun-2017-1253.csv downloaded
+[16/06/17 3:35:06 PM]: File attachment name: TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv downloaded
+[16/06/17 3:35:07 PM]: Daily Report Files for 15-Jun-2017-12:53 Email marked as Read
+[16/06/17 3:35:07 PM]: Daily Report Files for 15-Jun-2017-12:53Email moved to processed
+[16/06/17 3:35:07 PM]: Downloader END
+[16/06/17 3:35:07 PM]: Loader START
+[16/06/17 3:35:07 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:35:08 PM]: Table columns retrieved
+[16/06/17 3:35:08 PM]: DataTable initialized
+[16/06/17 3:35:08 PM]: Table DR_BELL_ALERT truncated
+[16/06/17 3:35:08 PM]: Data inserted
+[16/06/17 3:35:08 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:35:08 PM]: Loading Last_Loading_16-Jun-2017.csv-1535.txt
+[16/06/17 3:35:08 PM]: Table columns retrieved
+[16/06/17 3:35:08 PM]: DataTable initialized
+[16/06/17 3:35:08 PM]: Table DR_Last_Loading truncated
+[16/06/17 3:35:08 PM]: Cannot insert data System.Data.SqlClient.SqlException (0x80131904): Received an invalid column length from the bcp client for colid 1.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlBulkCopy.RunParser(BulkCopySimpleResultSet bulkCopyHandler)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinuedOnSuccess(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsyncContinued(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.CopyBatchesAsync(BulkCopySimpleResultSet internalResults, String updateBulkCommandText, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestContinuedAsync(BulkCopySimpleResultSet internalResults, CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   at System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table)
+   at DashSource.Loader.InsertDataIntoSQLServerUsingSQLBulkCopy(DataTable fileData, String tableName, List`1 columnNames) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 239
+ClientConnectionId:90c21d93-ffeb-4fa5-a335-830338078fd6
+Error Number:4815,State:1,Class:17
+[16/06/17 3:39:32 PM]: Downloader START
+[16/06/17 3:39:48 PM]: Connected to mailbox
+[16/06/17 3:39:51 PM]: Found email input fodler
+[16/06/17 3:39:52 PM]: Found email processed folder
+[16/06/17 3:40:22 PM]: Downloader START
+[16/06/17 3:40:36 PM]: Connected to mailbox
+[16/06/17 3:40:38 PM]: Found email input fodler
+[16/06/17 3:40:39 PM]: Found email processed folder
+[16/06/17 3:40:41 PM]: Emails loaded
+[16/06/17 3:40:41 PM]: Last_Loading_16-Jun-2017.csv body downloaded to input file
+[16/06/17 3:40:41 PM]: Last_Loading_16-Jun-2017.csv output file created
+[16/06/17 3:40:41 PM]: Last_Loading_16-Jun-2017.csv input file deleted
+[16/06/17 3:40:42 PM]: Last_Loading_16-Jun-2017.csv Email marked as Read
+[16/06/17 3:40:43 PM]: Last_Loading_16-Jun-2017.csvEmail moved to processed
+[16/06/17 3:40:44 PM]: File attachment name: TX3_TRACKING_15-Jun-2017-1253.csv downloaded
+[16/06/17 3:40:44 PM]: File attachment name: TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv downloaded
+[16/06/17 3:40:45 PM]: Daily Report Files for 15-Jun-2017-12:53 Email marked as Read
+[16/06/17 3:40:46 PM]: Daily Report Files for 15-Jun-2017-12:53Email moved to processed
+[16/06/17 3:40:46 PM]: Downloader END
+[16/06/17 3:40:46 PM]: Loader START
+[16/06/17 3:40:46 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:40:46 PM]: Table columns retrieved
+[16/06/17 3:40:46 PM]: DataTable initialized
+[16/06/17 3:40:46 PM]: Table DR_BELL_ALERT truncated
+[16/06/17 3:40:46 PM]: Data inserted
+[16/06/17 3:40:46 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:40:46 PM]: Loading Last_Loading_16-Jun-2017.csv-1540.txt
+[16/06/17 3:40:46 PM]: Table columns retrieved
+[16/06/17 3:40:46 PM]: DataTable initialized
+[16/06/17 3:40:46 PM]: Table DR_Last_Loading truncated
+[16/06/17 3:40:46 PM]: Data inserted
+[16/06/17 3:40:46 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv-1540.txt
+[16/06/17 3:40:46 PM]: Loading TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv
+[16/06/17 3:40:46 PM]: Table columns retrieved
+[16/06/17 3:40:46 PM]: DataTable initialized
+[16/06/17 3:40:46 PM]: Table DR_TX3_FAILURE_TRACKING truncated
+[16/06/17 3:40:46 PM]: Data inserted
+[16/06/17 3:40:46 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv
+[16/06/17 3:40:46 PM]: Loading TX3_TRACKING_15-Jun-2017-1253.csv
+[16/06/17 3:40:46 PM]: Table columns retrieved
+[16/06/17 3:40:46 PM]: DataTable initialized
+[16/06/17 3:40:46 PM]: Table DR_TX3_TRACKING truncated
+[16/06/17 3:40:46 PM]: Data inserted
+[16/06/17 3:40:46 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_TRACKING_15-Jun-2017-1253.csv
+[16/06/17 3:40:46 PM]: Loader END
+[16/06/17 3:42:00 PM]: Loader START
+[16/06/17 3:42:00 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:42:00 PM]: Table columns retrieved
+[16/06/17 3:42:00 PM]: DataTable initialized
+[16/06/17 3:42:00 PM]: Table DR_BELL_ALERT truncated
+[16/06/17 3:42:01 PM]: Data inserted
+[16/06/17 3:42:01 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:42:01 PM]: Loading Last_Loading_16-Jun-2017.csv-1540.txt#20170616034046
+[16/06/17 3:42:01 PM]: Table columns retrieved
+[16/06/17 3:42:01 PM]: DataTable initialized
+[16/06/17 3:42:01 PM]: Table DR_Last_Loading truncated
+[16/06/17 3:42:01 PM]: Data inserted
+[16/06/17 3:42:01 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv-1540.txt#20170616034046
+[16/06/17 3:42:01 PM]: Loading TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv#20170616034046
+[16/06/17 3:42:01 PM]: Table columns retrieved
+[16/06/17 3:42:01 PM]: DataTable initialized
+[16/06/17 3:42:01 PM]: Table DR_TX3_FAILURE_TRACKING truncated
+[16/06/17 3:42:01 PM]: Data inserted
+[16/06/17 3:42:01 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv#20170616034046
+[16/06/17 3:42:01 PM]: Loading TX3_TRACKING_15-Jun-2017-1253.csv#20170616034046
+[16/06/17 3:42:01 PM]: Table columns retrieved
+[16/06/17 3:42:01 PM]: DataTable initialized
+[16/06/17 3:42:01 PM]: Table DR_TX3_TRACKING truncated
+[16/06/17 3:42:01 PM]: Data inserted
+[16/06/17 3:42:01 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_TRACKING_15-Jun-2017-1253.csv#20170616034046
+[16/06/17 3:42:01 PM]: Loader END
+[16/06/17 3:44:12 PM]: Loader START
+[16/06/17 3:44:12 PM]: Loader END
+[16/06/17 3:45:14 PM]: Loader START
+[16/06/17 3:45:14 PM]: Files found
+[16/06/17 3:45:14 PM]: Loader END
+[16/06/17 3:45:45 PM]: Loader START
+[16/06/17 3:45:45 PM]: No files
+[16/06/17 3:45:45 PM]: Loader END
+[16/06/17 3:49:11 PM]: Loader START
+[16/06/17 3:49:11 PM]: Files found
+[16/06/17 3:49:11 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[16/06/17 3:49:11 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:49:11 PM]: Table columns retrieved
+[16/06/17 3:49:11 PM]: DataTable initialized
+[16/06/17 3:49:11 PM]: Data inserted
+[16/06/17 3:49:11 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\BELL_ALERT_20170616021007Edited.txt
+[16/06/17 3:49:11 PM]: Table DR_Last_Loading truncated
+[16/06/17 3:49:11 PM]: Loading Last_Loading_16-Jun-2017.csv-1540.txt#20170616034046#20170616034201.txt
+[16/06/17 3:49:11 PM]: Table columns retrieved
+[16/06/17 3:49:11 PM]: DataTable initialized
+[16/06/17 3:49:11 PM]: Data inserted
+[16/06/17 3:49:11 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\Last_Loading_16-Jun-2017.csv-1540.txt#20170616034046#20170616034201.txt
+[16/06/17 3:49:11 PM]: Table DR_TX3_FAILURE_TRACKING truncated
+[16/06/17 3:49:11 PM]: Loading TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv#20170616034046#20170616034201.txt
+[16/06/17 3:49:11 PM]: Table columns retrieved
+[16/06/17 3:49:11 PM]: DataTable initialized
+[16/06/17 3:49:11 PM]: Data inserted
+[16/06/17 3:49:11 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_FAILURE_TRACKING_15-Jun-2017-1253.csv#20170616034046#20170616034201.txt
+[16/06/17 3:49:11 PM]: Table DR_TX3_TRACKING truncated
+[16/06/17 3:49:12 PM]: Loading TX3_TRACKING_15-Jun-2017-1253.csv#20170616034046#20170616034201.txt
+[16/06/17 3:49:12 PM]: Table columns retrieved
+[16/06/17 3:49:12 PM]: DataTable initialized
+[16/06/17 3:49:12 PM]: Data inserted
+[16/06/17 3:49:12 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_TRACKING_15-Jun-2017-1253.csv#20170616034046#20170616034201.txt
+[16/06/17 3:49:12 PM]: Loader END

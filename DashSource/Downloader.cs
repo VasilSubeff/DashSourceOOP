@@ -2,6 +2,7 @@
 using Microsoft.Exchange.WebServices.Data;
 using System.IO;
 using System.Linq;
+using HtmlAgilityPack;
 
 namespace DashSource
 {
@@ -48,7 +49,7 @@ namespace DashSource
         }
 
 
-        public void downloadAttachments()
+        public void getData()
         {
             //EWS Connection
             ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2007_SP1);
@@ -76,21 +77,26 @@ namespace DashSource
                 //Download attachments from found items and move the item to attachments
                 foreach (var item in items.Items)
                 {
-                    if (item.HasAttachments)
+                    if (item.Subject.Contains("FV Info"))
                     {
-                        this.GetAttachmentsFromEmail(service, item.Id);
+                        this.ExtractAlert(service, item.Id);
                     }
                     else
                     {
-                        this.saveEmailBody(service, item.Id);
-                        //TODO: spool body to file
-                        //TODO: Replace
+                        if (item.HasAttachments)
+                        {
+                            this.DownloadAttachment(service, item.Id);
+                        }
+                        else
+                        {
+                            this.SaveBody(service, item.Id);
+                        }
                     }
 
                     this.MarkEmailAsRead(service, item.Id);
-                    LogHelper.Log("Email marked as Read");
+                    LogHelper.Log(item.Subject + " Email marked as Read");
                     item.Move(processedFolder.Id);
-                    LogHelper.Log("Email moved to processed");
+                    LogHelper.Log(item.Subject + "Email moved to processed");
                 }
             }
             catch (Exception e)
@@ -105,6 +111,72 @@ namespace DashSource
                 }
             }
         }
+
+        private void ExtractAlert(ExchangeService service, ItemId itemId)
+        {
+            var propSet = new PropertySet(ItemSchema.Body);
+            propSet.RequestedBodyType = BodyType.HTML;
+            propSet.BasePropertySet = BasePropertySet.FirstClassProperties;
+            EmailMessage message = EmailMessage.Bind(service, itemId, propSet);
+            string customer = "";
+
+            if (message.Subject.ToLower().Contains("bell"))
+            {
+                customer = "BELL";
+            }
+            else if (message.Subject.ToLower().Contains("mtn"))
+            {
+                customer = "MTN";
+            }
+
+            string filePath = string.Format("{0}{1}_ALERT_{2}.txt", Properties.Settings.Default.inputDirectorySetting, customer, DateTime.Now.ToString("yyyyMMddhhmmss"));
+
+            using (StreamWriter file = new StreamWriter(filePath))
+            {
+                file.WriteLine(message.Body.Text);
+            }
+
+            //this.ConvertAlert(filePath);
+            //TODO: To enable when bache adds IDs
+
+        }
+
+        //internal void ConvertAlert(string file)
+        //{
+        //    string fullPath = Properties.Settings.Default.inputDirectorySetting + file;
+        //    string outputFile = fullPath + "#" + DateTime.Now.ToString("yyyyMMddhhmmss") + ".output.txt";
+
+        //    var htmlDoc = new HtmlDocument();
+        //    htmlDoc.Load(fullPath);
+
+        //    string columns = "DT|TL|PF|SV|HN|IP|CU|SN|SP|TH|FR|SD|DET";
+        //    string values = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}|{9}|{10}|{11}|TEST",
+        //        DateTime.Now,
+        //        htmlDoc.GetElementbyId("title").InnerText,
+        //        htmlDoc.GetElementbyId("platform").InnerText,
+        //        htmlDoc.GetElementbyId("severity").InnerText,
+        //        htmlDoc.GetElementbyId("component").InnerText,
+        //        htmlDoc.GetElementbyId("hostname").InnerText,
+        //        htmlDoc.GetElementbyId("ip").InnerText,
+        //        htmlDoc.GetElementbyId("user").InnerText,
+        //        htmlDoc.GetElementbyId("scriptName").InnerText,
+        //        htmlDoc.GetElementbyId("scriptPath").InnerText,
+        //        htmlDoc.GetElementbyId("threshold").InnerText,
+        //        htmlDoc.GetElementbyId("frequency").InnerText,
+        //        htmlDoc.GetElementbyId("version").InnerText,
+        //        htmlDoc.GetElementbyId("doc").InnerText);
+
+
+        //    Console.WriteLine(columns);
+        //    Console.WriteLine(values);
+        //    File.Delete(fullPath);
+        //    using (StreamWriter writer = new StreamWriter(fullPath))
+        //    {
+        //        writer.WriteLine(columns);
+        //        writer.WriteLine(values);
+        //    }
+        //}
+
         private Folder findFolder(ExchangeService service, string folderName)
         {
             try
@@ -150,7 +222,7 @@ namespace DashSource
             return result;
         }
 
-        private void GetAttachmentsFromEmail(ExchangeService service, ItemId itemId)
+        private void DownloadAttachment(ExchangeService service, ItemId itemId)
         {
             try
             {
@@ -190,7 +262,7 @@ namespace DashSource
             }
         }
 
-        private void saveEmailBody(ExchangeService service, ItemId itemId)
+        private void SaveBody(ExchangeService service, ItemId itemId)
         {
             try
             {
@@ -201,8 +273,8 @@ namespace DashSource
 
                 string filePath = Properties.Settings.Default.inputDirectorySetting + message.Subject + ".input";
                 string filePathOutput = Properties.Settings.Default.inputDirectorySetting + message.Subject + "-" + DateTime.Now.Hour + DateTime.Now.Minute + ".txt";
-                string delimiter = Properties.Settings.Default.Delimiter;
-                //string delimiter = ",";
+                //string delimiter = Properties.Settings.Default.Delimiter;
+                string delimiter = ",";
                 string line = null;
 
                 using (StreamWriter file = new StreamWriter(filePath))
