@@ -54,10 +54,13 @@ namespace DashSource
                 var htmlDoc = new HtmlDocument();
                 htmlDoc.Load(fullPath);
 
-                string columns = "DT|TL|PF|SV|HN|IP|CU|SN|SP|TH|FR|SD|DET";
-                string values = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}|{9}|{10}|{11}|TEST",
+                string details = htmlDoc.GetElementbyId("pre").InnerText.Replace(System.Environment.NewLine, ";");
+                
+                string columns = "DT|TL|CUST|PF|SV|CP|HN|IP|CU|SN|SP|TH|FR|VRS|SD|DET";
+                string values = String.Format("{0}|{1}|{2}|{3}|{4}|{5}|{6}|{7}|{8}|{9}|{10}|{11}|{12}|{13}|{14}|{15}",
                     DateTime.Now,
                     htmlDoc.GetElementbyId("title").InnerText,
+                    htmlDoc.GetElementbyId("customer").InnerText,
                     htmlDoc.GetElementbyId("platform").InnerText,
                     htmlDoc.GetElementbyId("severity").InnerText,
                     htmlDoc.GetElementbyId("component").InnerText,
@@ -69,7 +72,8 @@ namespace DashSource
                     htmlDoc.GetElementbyId("threshold").InnerText,
                     htmlDoc.GetElementbyId("frequency").InnerText,
                     htmlDoc.GetElementbyId("version").InnerText,
-                    htmlDoc.GetElementbyId("doc").InnerText);
+                    htmlDoc.GetElementbyId("doc").InnerText,
+                    details);               
 
                 File.Delete(fullPath);
                 using (StreamWriter writer = new StreamWriter(fullPath))
@@ -125,6 +129,19 @@ namespace DashSource
                 LogHelper.Log(String.Format("Table {0} truncated", tableName));
             }
                 
+        }
+
+        public void AddNewLines(string tableName)
+        {
+            using (SqlConnection connection = new SqlConnection(this.ConnectionString))
+            {
+                string query = string.Format("UPDATE {0} SET DETAILS = REPLACE(DETAILS, ';', CHAR(10))", tableName);
+                SqlCommand cmd = new SqlCommand(query, connection);
+                connection.Open();
+                cmd.ExecuteNonQuery();
+                LogHelper.Log("New Lines added to details");
+            }
+
         }
 
         public string getTableName(string fileName)

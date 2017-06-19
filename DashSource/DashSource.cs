@@ -22,7 +22,7 @@ namespace DashSource
             foreach (var file in files)
             {
                 tableName = ldr.getTableName(file);
-
+                
                 if (file.ToLower().Contains("_alert_"))
                 {
                     ldr.ConvertAlert(file);
@@ -38,6 +38,12 @@ namespace DashSource
                 var parsedFile = ldr.GetDataTabletFromCSVFile(file);
 
                 ldr.InsertDataIntoSQLServerUsingSQLBulkCopy(parsedFile, tableName, columnNames);
+
+                if(file.ToLower().Contains("_alert_"))
+                {
+                    ldr.AddNewLines(tableName);
+                }
+
                 ldr.MoveToArchive(file);
             }
             LogHelper.Log("Loader END");

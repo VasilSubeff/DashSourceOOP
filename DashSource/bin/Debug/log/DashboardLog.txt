@@ -668,3 +668,198 @@ Error Number:4815,State:1,Class:17
 [16/06/17 3:49:12 PM]: Data inserted
 [16/06/17 3:49:12 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170616\TX3_TRACKING_15-Jun-2017-1253.csv#20170616034046#20170616034201.txt
 [16/06/17 3:49:12 PM]: Loader END
+[19/06/17 12:25:43 PM]: Loader START
+[19/06/17 12:25:43 PM]: Files found
+[19/06/17 12:25:43 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:25:43 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:25:43 PM]: Table columns retrieved
+[19/06/17 12:25:43 PM]: DataTable initialized
+[19/06/17 12:25:43 PM]: Data inserted
+[19/06/17 12:25:43 PM]: Archive directory created C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619
+[19/06/17 12:25:43 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619\BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:25:43 PM]: Loader END
+[19/06/17 12:27:40 PM]: Downloader START
+[19/06/17 12:27:49 PM]: Connected to mailbox
+[19/06/17 12:27:51 PM]: Found email input fodler
+[19/06/17 12:27:52 PM]: Found email processed folder
+[19/06/17 12:27:54 PM]: No emails foundSystem.ArgumentException: The collection is empty.
+Parameter name: items
+   at Microsoft.Exchange.WebServices.Data.EwsUtilities.ValidateParamCollection(IEnumerable collection, String paramName)
+   at Microsoft.Exchange.WebServices.Data.ExchangeService.LoadPropertiesForItems(IEnumerable`1 items, PropertySet propertySet)
+   at DashSource.Downloader.getData() in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Downloader.cs:line 75
+[19/06/17 12:27:54 PM]: Downloader END
+[19/06/17 12:27:54 PM]: Loader START
+[19/06/17 12:27:54 PM]: Files found
+[19/06/17 12:27:54 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:27:54 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:27:54 PM]: Table columns retrieved
+[19/06/17 12:27:54 PM]: DataTable initialized
+[19/06/17 12:27:54 PM]: Data inserted
+[19/06/17 12:27:54 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619\BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:27:54 PM]: Loader END
+[19/06/17 12:30:19 PM]: Loader START
+[19/06/17 12:30:19 PM]: Files found
+[19/06/17 12:30:30 PM]: Loader START
+[19/06/17 12:30:30 PM]: Files found
+[19/06/17 12:30:55 PM]: Loader START
+[19/06/17 12:30:55 PM]: Files found
+[19/06/17 12:30:55 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:30:55 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:30:55 PM]: Table columns retrieved
+[19/06/17 12:30:55 PM]: DataTable initialized
+[19/06/17 12:30:55 PM]: Data inserted
+[19/06/17 12:30:55 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619\BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:30:55 PM]: Loader END
+[19/06/17 12:31:48 PM]: Loader START
+[19/06/17 12:31:48 PM]: Files found
+[19/06/17 12:31:50 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:31:50 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:31:50 PM]: Table columns retrieved
+[19/06/17 12:31:50 PM]: DataTable initialized
+[19/06/17 12:31:51 PM]: Data inserted
+[19/06/17 12:31:51 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619\BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:31:51 PM]: Loader END
+[19/06/17 12:32:20 PM]: Loader START
+[19/06/17 12:32:20 PM]: Files found
+[19/06/17 12:35:20 PM]: Loader START
+[19/06/17 12:35:20 PM]: Files found
+[19/06/17 12:36:26 PM]: Loader START
+[19/06/17 12:36:26 PM]: Files found
+[19/06/17 12:36:40 PM]: Loader START
+[19/06/17 12:36:40 PM]: Files found
+[19/06/17 12:37:00 PM]: Loader START
+[19/06/17 12:37:00 PM]: Files found
+[19/06/17 12:37:19 PM]: Loader START
+[19/06/17 12:37:19 PM]: Files found
+[19/06/17 12:37:45 PM]: Loader START
+[19/06/17 12:37:45 PM]: Files found
+[19/06/17 12:38:32 PM]: Loader START
+[19/06/17 12:38:32 PM]: Files found
+[19/06/17 12:39:34 PM]: Loader START
+[19/06/17 12:39:34 PM]: Files found
+[19/06/17 12:43:35 PM]: Loader START
+[19/06/17 12:43:35 PM]: Files found
+[19/06/17 12:44:43 PM]: Loader START
+[19/06/17 12:44:43 PM]: Files found
+[19/06/17 12:46:08 PM]: Loader START
+[19/06/17 12:46:08 PM]: Files found
+[19/06/17 12:46:08 PM]: Cannot convert alert System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DashSource.Loader.ConvertAlert(String file) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 61
+[19/06/17 12:46:19 PM]: Loader START
+[19/06/17 12:46:19 PM]: Files found
+[19/06/17 12:46:39 PM]: Loader START
+[19/06/17 12:46:39 PM]: Files found
+[19/06/17 12:46:41 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:46:41 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:46:41 PM]: Table columns retrieved
+[19/06/17 12:46:41 PM]: Cannot convert file to DataTable System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 240
+[19/06/17 12:46:48 PM]: Loader START
+[19/06/17 12:46:48 PM]: Files found
+[19/06/17 12:46:51 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:46:51 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:46:51 PM]: Table columns retrieved
+[19/06/17 12:46:51 PM]: Cannot convert file to DataTable System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 240
+[19/06/17 12:46:59 PM]: Loader START
+[19/06/17 12:46:59 PM]: Files found
+[19/06/17 12:46:59 PM]: Cannot convert alert System.NullReferenceException: Object reference not set to an instance of an object.
+   at DashSource.Loader.ConvertAlert(String file) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 61
+[19/06/17 12:47:19 PM]: Loader START
+[19/06/17 12:47:19 PM]: Files found
+[19/06/17 12:47:19 PM]: Cannot convert alert System.NullReferenceException: Object reference not set to an instance of an object.
+   at DashSource.Loader.ConvertAlert(String file) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 61
+[19/06/17 12:47:48 PM]: Loader START
+[19/06/17 12:47:48 PM]: Files found
+[19/06/17 12:48:20 PM]: Loader START
+[19/06/17 12:48:20 PM]: Files found
+[19/06/17 12:48:52 PM]: Loader START
+[19/06/17 12:48:52 PM]: Files found
+[19/06/17 12:48:57 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 12:48:57 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 12:48:57 PM]: Table columns retrieved
+[19/06/17 12:48:57 PM]: Cannot convert file to DataTable System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 240
+[19/06/17 12:49:18 PM]: Loader START
+[19/06/17 12:49:18 PM]: Files found
+[19/06/17 12:50:24 PM]: Loader START
+[19/06/17 12:50:24 PM]: Files found
+[19/06/17 12:53:39 PM]: Loader START
+[19/06/17 12:53:39 PM]: Files found
+[19/06/17 12:54:04 PM]: Loader START
+[19/06/17 12:54:04 PM]: Files found
+[19/06/17 12:54:27 PM]: Loader START
+[19/06/17 12:54:27 PM]: Files found
+[19/06/17 12:54:37 PM]: Loader START
+[19/06/17 12:54:37 PM]: Files found
+[19/06/17 12:54:59 PM]: Loader START
+[19/06/17 12:54:59 PM]: Files found
+[19/06/17 12:56:48 PM]: Loader START
+[19/06/17 12:56:48 PM]: Files found
+[19/06/17 12:56:57 PM]: Loader START
+[19/06/17 12:56:57 PM]: Files found
+[19/06/17 12:57:27 PM]: Loader START
+[19/06/17 12:57:27 PM]: Files found
+[19/06/17 12:57:47 PM]: Loader START
+[19/06/17 12:57:47 PM]: Files found
+[19/06/17 12:58:07 PM]: Loader START
+[19/06/17 12:58:07 PM]: Files found
+[19/06/17 1:04:11 PM]: Loader START
+[19/06/17 1:04:11 PM]: Files found
+[19/06/17 1:04:11 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 1:04:11 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:04:11 PM]: Table columns retrieved
+[19/06/17 1:04:11 PM]: Cannot convert file to DataTable System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 240
+[19/06/17 1:05:49 PM]: Loader START
+[19/06/17 1:05:49 PM]: Files found
+[19/06/17 1:05:49 PM]: Cannot convert alert System.NullReferenceException: Object reference not set to an instance of an object.
+   at DashSource.Loader.ConvertAlert(String file) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 57
+[19/06/17 1:06:29 PM]: Loader START
+[19/06/17 1:06:29 PM]: Files found
+[19/06/17 1:06:30 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 1:06:30 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:06:30 PM]: Table columns retrieved
+[19/06/17 1:06:30 PM]: Cannot convert file to DataTable System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 240
+[19/06/17 1:08:42 PM]: Loader START
+[19/06/17 1:08:42 PM]: Files found
+[19/06/17 1:08:42 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 1:08:42 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:08:42 PM]: Table columns retrieved
+[19/06/17 1:08:42 PM]: Cannot convert file to DataTable System.ArgumentException: Input array is longer than the number of columns in this table.
+   at System.Data.DataTable.NewRecordFromArray(Object[] value)
+   at System.Data.DataRowCollection.Add(Object[] values)
+   at DashSource.Loader.GetDataTabletFromCSVFile(String sourceFilePath) in C:\Users\vasils\Desktop\DailyReport Project\DashSource\DashSourceOOP\DashSource\Loader.cs:line 240
+[19/06/17 1:12:26 PM]: Loader START
+[19/06/17 1:12:26 PM]: Files found
+[19/06/17 1:12:26 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 1:12:26 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:12:27 PM]: Table columns retrieved
+[19/06/17 1:12:27 PM]: DataTable initialized
+[19/06/17 1:12:27 PM]: Data inserted
+[19/06/17 1:12:27 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619\BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:12:27 PM]: Loader END
+[19/06/17 1:23:01 PM]: Loader START
+[19/06/17 1:23:01 PM]: Files found
+[19/06/17 1:23:01 PM]: C:\Users\vasils\Desktop\DailyReport Project\INPUT\BELL_ALERT_20170616021007Edited.txt converted
+[19/06/17 1:23:01 PM]: Loading BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:23:01 PM]: Table columns retrieved
+[19/06/17 1:23:01 PM]: DataTable initialized
+[19/06/17 1:23:01 PM]: Data inserted
+[19/06/17 1:23:01 PM]: New Lines added to details
+[19/06/17 1:23:01 PM]: File moved to ARCHIVE C:\Users\vasils\Desktop\DailyReport Project\ARCHIVE\20170619\BELL_ALERT_20170616021007Edited.txt
+[19/06/17 1:23:01 PM]: Loader END
